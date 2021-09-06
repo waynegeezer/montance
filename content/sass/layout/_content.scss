@@ -1,0 +1,181 @@
+/* Common Elements */
+section {
+    padding: 80px 0;
+    position: relative;
+    @include media-breakpoint-down(md) {
+        padding: 60px 0;
+    }
+}
+main {
+    margin-top: 80px;
+}
+.carousel-fade {
+    .carousel-inner {
+        .carousel-item {
+            transition: all .5s;
+        }
+        .carousel-item,
+        .active.carousel-item-left,
+        .active.carousel-item-right {
+            opacity: 0;
+        }
+        .active,
+        .carousel-item-next.carousel-item-left,
+        .carousel-item-prev.carousel-item-right {
+            opacity: 1;
+        }
+        .carousel-item-next,
+        .carousel-item-prev,
+        .active.carousel-item-left,
+        .active.carousel-item-right {
+            left: 0;
+            transform: translate3d(0, 0, 0);
+        }
+    }
+    .carousel-control {
+        z-index: 2;
+    }
+}
+/* Section Banner - 1st fold */ 
+.section-banner {
+    padding: 185px 0 250px;
+    background: url("../images/patterns/waves.png") no-repeat 0 74% ;
+    background-size: cover;
+    @include media-breakpoint-down(lg) {
+        padding: 100px 0 150px;
+    }
+    @media (min-width:1600px) {
+        background-position: 0 90%;;
+    }
+    &.section-banner-center {
+        .section-banner-block {
+            width: 715px;
+            margin: 0 auto;
+            @include media-breakpoint-down(md) {
+                width: 100%;
+            }
+            h1 {
+                padding: 0 80px;
+                @include media-breakpoint-down(xs) {
+                    padding: 0;
+                }
+            }
+            h1, p {
+                text-align: center;
+            }
+        }
+    }
+    .input-group-button {
+        margin: 0 auto;
+    }
+    &.section-banner-illustration {
+        padding: 50px 0 100px;
+        background: none;
+        @include media-breakpoint-down(xs) {
+            padding: 50px 0;
+        }
+        .row {
+            min-height: 527px;
+            align-items: center;
+            @include media-breakpoint-down(lg) {
+                min-height: 390px;
+            }
+            > div {
+                position: static;
+                padding-right: 65px;
+                @include media-breakpoint-down(md) {
+                    padding-right: 15px;
+                    position: relative;
+                }
+            }
+        }
+        h1 {
+            margin: 0;
+            @include media-breakpoint-down(md) {
+                margin-bottom: 10px;
+            }
+        }
+        h1, p {
+            @include media-breakpoint-down(md) {
+                text-align: center;
+            }
+        }
+        .input-group-button {
+            margin: 0;
+            @include media-breakpoint-down(md) {
+                margin: 0 auto;
+            }
+        }
+        .illustration-space-text {
+            margin: 65px 0 15px;
+            @include media-breakpoint-down(md) {
+                margin: 20px 0 15px;
+            }
+        }
+        .illustration-img {
+            position: absolute;
+            right: 0;
+            top: 0;
+            max-height: 527px;
+            width: auto;
+            @include media-breakpoint-down(lg) {
+                right: 35px;
+                max-height: 389px;
+                width: 40%;
+            }
+            @include media-breakpoint-down(md) {
+                position: relative;
+                right: 0;
+                max-height: none;
+                width: 50%;
+                margin: 15px auto 0;
+                display: block;
+            }
+            @include media-breakpoint-down(xs) {
+                margin: 10px auto 0;
+                width: 100%;
+                max-width: 374px;
+            }
+        }
+    }
+}
+/* Arrow Bottom block */
+.arrow-block {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    background: linear-gradient(90deg, $pink 0%, $yellow 100%);
+    background-size: 400% 400%;
+    -webkit-animation: shine 8s ease infinite;
+    -moz-animation: shine 8s ease infinite;
+    animation: shine 8s ease infinite;
+    &:before {
+        content: "";
+        position: absolute;
+        width: 91%;
+        height: 91%;
+        border-radius: 50%;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        background-color: $white-100;
+    }
+    img {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        transform: rotate((90deg));
+        z-index: 2;
+        -webkit-animation: movement-up-down  0.5s infinite;
+        -moz-animation: movement-up-down  0.5s infinite;
+        animation: movement-up-down  0.5s infinite;
+    }
+}

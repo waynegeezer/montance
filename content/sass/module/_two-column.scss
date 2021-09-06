@@ -1,0 +1,55 @@
+/* Two Column Layout */
+.section-two-column {
+    padding: 0 0 150px;
+    @include media-breakpoint-down(md) {
+        padding: 0 0 100px;
+    }
+    @include media-breakpoint-down(xs) {
+        padding: 60px 0 80px;
+    }
+    .row-two-column {
+        align-items: center;
+        margin-bottom: 110px;
+        @include media-breakpoint-down(md) {
+            margin-bottom: 80px;
+        }
+        @include media-breakpoint-down(xs) {
+            margin-bottom: 60px;
+        }
+        &:last-child {
+            margin-bottom: 0;
+        }
+        .icon-img {
+            margin: 0 auto;
+            display: block;
+            @include media-breakpoint-down(md) {
+                width: 300px;
+                margin: 0 0 30px;
+            }
+            @include media-breakpoint-down(xs) {
+                width: 160px;
+                margin: 0 0 20px;
+            }
+        }
+        .sub-sm-header {
+            font-family: $red-hat-black;
+            color: $grey-100;
+            margin: 0;
+        }
+        h2, h3 {
+            line-height: 1.1;
+            margin-bottom: 25px;
+        }
+        p {
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+        .btn {
+            width: 245px;
+            @include media-breakpoint-down(xs) {
+                width: 100%;
+            }
+        }
+    }
+} 

@@ -1,0 +1,39 @@
+/* Navigation Dots */ 
+.navigation-dots {
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+    position: fixed;
+    right: 55px;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 5;
+    width: 16px;
+    transition: all .3s;
+    li {
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        &:last-child {
+            margin-bottom: 0;
+        }
+        a {
+            width: 8px;
+            height: 8px;
+            @include bg-color-opacity($orange, 0.5);
+            display: block;
+            border-radius: 50%;
+            transition: all .4s;
+            @include hover {
+                @include bg-color-opacity($orange, 1);
+            }
+            &.active {
+                width: 16px;
+                height: 16px;
+                background-color: transparent;
+                @include border-style(4px, solid, $orange);
+            }
+        }
+    }
+}

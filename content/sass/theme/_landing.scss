@@ -1,0 +1,120 @@
+/* Home Page */ 
+.section-training {
+    padding: 50px 0 0;
+    .row {
+        padding-top: 5px;
+        .illustration-img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            @include media-breakpoint-down(lg) {
+                left: 20px;
+                width: 45%;
+            }
+            @include media-breakpoint-down(md) {
+                left: 0;
+                max-width: 350px;
+                width: 100%;
+                position: relative;
+                display: block;
+                margin: 30px auto;
+            }
+        }
+        .trained-block {
+            margin-top: 20px;
+        }
+        .logo-list {
+            display: flex;
+            flex-flow: row wrap;
+            align-items: flex-end;
+            margin: 15px 0 35px;
+            li {
+                margin: 0 20px 20px 0;
+                @include media-breakpoint-down(xs) {
+                    margin: 0 0 20px;
+                    width: 33%;
+                }
+            }
+            img {
+                width: auto;
+                @include media-breakpoint-down(lg) {
+                    max-width: 145px;
+                    max-height: 55px;
+                }
+                @include media-breakpoint-down(xs) {
+                    max-width: initial;
+                    max-height: 40px;
+                    width: 86%;
+                    margin: 0 auto;
+                    display: block;
+                }
+            }
+        }
+        .number-list {
+            display: flex;
+            flex-flow: row wrap;
+            align-items: flex-end;
+            margin: 0;
+            @include media-breakpoint-down(xs) {
+                align-items: flex-start;
+                justify-content: space-between;
+            }
+            li {
+                margin: 0 60px 20px 0;
+                color: $grey-200;
+                @include media-breakpoint-down(lg) {
+                    margin: 0 35px 20px 0;
+                }
+                @include media-breakpoint-down(xs) {
+                    margin: 0 0 15px 0;
+                    width: 28%;
+                    @include font-size(13px, 17px);
+                }
+                &:last-child {
+                    margin-right: 0;
+                }
+                span.orange-number {
+                    font-family: $red-hat-bold;
+                    @include font-size(42px, 32px);
+                    color: $orange;
+                    display: inline-block;
+                    margin-bottom: 10px;
+                    @include media-breakpoint-down(xs) {
+                        @include font-size(22px, 1);
+                        margin-bottom: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+/* Contact Page */ 
+.contact-page {
+    .section-contact {
+        @include media-breakpoint-up(lg) {
+            padding: 110px 0 90px;
+        }
+    }
+}
+/* Resources Page */
+.resouces-page {
+    .section-banner {
+        background: none;
+        padding-top: 110px;
+        @include media-breakpoint-down(md) {
+            padding-top: 60px;
+        }
+        .section-banner-block {
+            width: 630px;
+            @include media-breakpoint-down(md) {
+                width: 100%;
+            }
+        }
+    }
+    .section-resources {
+        padding-top: 40px;
+        @include media-breakpoint-down(xs) {
+            padding: 20px 0 80px;
+        }
+    }
+} 

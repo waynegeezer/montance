@@ -1,0 +1,146 @@
+/* Testimonials */ 
+.section-testimonials {
+    padding-bottom: 30px;
+}
+.carousel-testimonials {
+    margin-top: 45px;
+    @include media-breakpoint-down(md) {
+        width: 330px;
+        margin: 0 auto;
+    }
+    .owl-item {
+        &.center {
+            .testimonial-item {
+                transform: scale(1);
+                margin-top: 0;
+                opacity: 1;
+            }
+            .testimonial-block {
+                border-radius: 20px;
+                box-shadow: 0 0 25px $blue-500;
+                background-color: $white;
+            }
+        }
+        .testimonial-item {
+            padding: 15px 0;
+            transform: scale(0.95);
+            margin-top: 10px;
+            opacity: 0.7;
+            transition: all .4s;
+            @include media-breakpoint-down(md) {
+                transform: scale(1);
+                margin-top: 0;
+                opacity: 1;
+                padding: 20px;
+            }
+        }
+        .testimonial-block {
+            padding: 30px 35px;
+            position: relative;
+            @include media-breakpoint-down(md) {
+                border-radius: 20px;
+                box-shadow: 0 0 25px $blue-500;
+                background-color: $white;
+                min-height: 500px;
+            }
+            &:before {
+                content: "";
+                position: absolute;
+                background: url("../images/icons/left-quote-2.svg") no-repeat 0;
+                background-size: cover;
+                width: 33px;
+                height: 26px;
+                right: 48px;
+                top: 30px;
+                @include media-breakpoint-down(md) {
+                    right: 20px;
+                    top: 25px;
+                }
+            }
+        }
+        .testimonial-block-1 {
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: center;
+            margin-bottom: 25px;
+            position: relative;
+            img {
+                width: auto;
+            }
+            .testimonial-info-block {
+                margin-left: 20px;
+                .name {
+                    font-family: $avenir-medium;
+                    @include font-size(18px, 18px);
+                    color: $grey-600;
+                    margin: 0 0 10px;
+                    @include media-breakpoint-down(xs) {
+                        @include font-size(16px, 1);
+                        margin: 0 0 5px;
+                    }
+                }
+                .author {
+                    @include font-size(14px, 22px);
+                    @include media-breakpoint-down(xs) {
+                        @include font-size(12px, 17px);
+                    }
+                }
+            }
+        }
+        p {
+            margin: 0;
+        }
+    }
+    .owl-nav {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        @include media-breakpoint-down(md) {
+            position: relative;
+            top: 0;
+            text-align: center;
+        }
+        &.disabled {
+            display: block;
+        }
+        > button {
+            outline: none;
+            img {
+                transition: all .4s;
+                @include hover {
+                    opacity: 0.8;
+                }
+            }
+        }
+        .owl-prev, .owl-next {
+            position: absolute;
+            top: 50%;
+            @include media-breakpoint-down(md) {
+                position: relative;
+                top: 0;
+                margin: 0 7px;
+            }
+        }
+        .owl-prev {
+            left: -4%;
+            @include media-breakpoint-down(lg) {    
+                left: -2%;
+            }
+            @include media-breakpoint-down(md) {
+                left: 0;
+            } 
+            img {
+                transform: rotate(-180deg);
+            }
+        }
+        .owl-next {
+            right: -4%;
+            @include media-breakpoint-down(lg) {    
+                right: -2%;
+            }
+            @include media-breakpoint-down(md) {
+                right: 0;
+            } 
+        }
+    }
+}

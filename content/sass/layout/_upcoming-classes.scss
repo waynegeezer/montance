@@ -1,0 +1,163 @@
+/* Section Upcoming Classes */
+.section-upcoming-classes {
+    padding: 110px 0 65px;
+    background-color: $blue;
+    @include media-breakpoint-down(lg) {
+        padding: 90px 0 65px;
+    }
+    @include media-breakpoint-down(md) {
+        padding: 70px 0 50px;
+    }
+    @include media-breakpoint-down(xs) {
+        padding: 60px 0;
+    }
+    h2, p {
+        color: $white;
+        @include media-breakpoint-down(xs) {
+            text-align: center;
+        }
+    }
+    .input-group-button {
+        border-color: $blue-300;
+        width: 100%;
+        @include media-breakpoint-down(md) {
+            width: 480px;
+        }
+        @include media-breakpoint-down(xs) {
+            width: 100%;
+        }
+        input {
+            @include bg-color-opacity($blue, 0.5);
+            color: $grey-100;
+        }
+        .btn-secondary {
+            width: 110px;
+            @include font-size(14px, 1);
+        }
+    }
+    .overflow-carousel-upcoming-classes {
+        width: 200%;
+        padding-left: 50px;
+        @include media-breakpoint-down(md) {
+            width: 130%;
+            padding-left: 0;
+            margin-top: 40px;
+        }
+        @include media-breakpoint-down(xs) {
+            width: 100%;
+            margin: 40px auto 0;
+        }
+    }
+    .carousel-upcoming-classes {
+        @include media-breakpoint-down(xs) {
+            width: 310px;
+            margin: 0 auto;
+        }
+        .class-item {
+            padding: 10px;
+            transition: all .3s;
+            .class-item-block {
+                width: 260px;
+                height: 350px;
+                background-color: $blue-400;
+                @include border-style(1px, solid, $blue-300);
+                padding: 35px 20px 30px;
+                border-radius: 20px;
+                transition: all .3s;
+                @include hover {
+                    box-shadow: 0 0 50px $orange-200;
+                    background-color: $blue-300;
+                }
+                @include media-breakpoint-down(xs) {
+                    width: 100%;
+                    @include hover {
+                        box-shadow: none;
+                    }
+                }
+            }
+            .country {
+                font-family: $avenir-heavy;
+                @include font-size(14px, 17px);
+                color: $grey-100;
+                margin: 0;
+                text-align: left;
+            }
+            .date {
+                font-family: $avenir-heavy;
+                @include font-size(28px, 34px);
+                color: $white;
+                margin: 8px 0 12px;
+                text-align: left;
+            }
+            ul {
+                margin: 0;
+                min-height: 165px;
+                li {
+                    display: flex;
+                    flex-flow: row nowrap;
+                    align-items: flex-start;
+                    margin-bottom: 18px;
+                    font-family: $avenir-medium;
+                    line-height: 19px;
+                    color: $grey-400;
+                    p {
+                        margin: 0;
+                    }
+                    a {
+                        margin-top: 5px;
+                        display: inline-block;
+                        img {
+                            width: 17px;
+                            margin: 0 0 0 4px;
+                            display: inline-block;
+                            transition: all .4s;
+                        }
+                        @include hover {
+                            img {
+                                margin: 0 0 0 7px;
+                            }
+                        }
+                    }
+                }
+                img {
+                    width: 18px;
+                    max-width: 18px;
+                    margin-right: 8px;
+                }
+            }
+            .btn {
+                width: 196px;
+                display: block;
+                margin: 0 auto;
+            }
+        }
+        .owl-nav {
+            margin: 10px 0 0 10px;
+            @include media-breakpoint-down(xs) {
+                margin: 10px 0 0;
+                text-align: center;
+            }
+            &.disabled {
+                display: block;
+            }
+            > button {
+                margin-right: 20px;
+                outline: none;
+                &:last-child {
+                    margin-right: 0;
+                }
+                img {
+                    transition: all .4s;
+                    @include hover {
+                        opacity: 0.8;
+                    }
+                }
+            }
+            .owl-prev {
+                img {
+                    transform: rotate(-180deg);
+                }
+            }
+        }
+    }
+}
