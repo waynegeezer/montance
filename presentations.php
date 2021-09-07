@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="content/css/bootstrap.min.css">
     <link rel="stylesheet" href="content/css/styles.css">
 </head>
-<body class="contact-page">
+<body class="">
     <?php
         include ("content/views/header.php");
     ?>
@@ -27,7 +27,7 @@
                             <div class="content-box">
                                 <span class="type">webcast</span>
                                 <span class="date">February 2020</span>
-                                <h4 class="heading">Threat Intel - Online webcast with Domain Tools</h4>
+                                <h4 class="heading dark-theme-color-white">Threat Intel - Online webcast with Domain Tools</h4>
                                 <a class="btn-text" href="" target="_blank">Read More <img src="content/images/icons/arrow-right.svg" alt=""></a>
                             </div>
                         </div>
@@ -38,7 +38,7 @@
                             <div class="content-box">
                                 <span class="type">webcast</span>
                                 <span class="date">January 2020</span>
-                                <h4 class="heading">SOAR - Threatconnect, SaltyCloud, Siemplify, Swimlane</h4>
+                                <h4 class="heading dark-theme-color-white">SOAR - Threatconnect, SaltyCloud, Siemplify, Swimlane</h4>
                                 <a class="btn-text" href="" target="_blank">Read More <img src="content/images/icons/arrow-right.svg" alt=""></a>
                             </div>
                         </div>
@@ -49,7 +49,7 @@
                             <div class="content-box">
                                 <span class="type">webcast</span>
                                 <span class="date">January 2020</span>
-                                <h4 class="heading">HIMSS <br>Scanning</h4>
+                                <h4 class="heading dark-theme-color-white">HIMSS <br>Scanning</h4>
                                 <a class="btn-text" href="" target="_blank">Read More <img src="content/images/icons/arrow-right.svg" alt=""></a>
                             </div>
                         </div>
@@ -60,7 +60,7 @@
                             <div class="content-box">
                                 <span class="type">webcast</span>
                                 <span class="date">February 2020</span>
-                                <h4 class="heading">Threat Intel - Online webcast with Domain Tools</h4>
+                                <h4 class="heading dark-theme-color-white">Threat Intel - Online webcast with Domain Tools</h4>
                                 <a class="btn-text" href="" target="_blank">Read More <img src="content/images/icons/arrow-right.svg" alt=""></a>
                             </div>
                         </div>
@@ -71,7 +71,7 @@
                             <div class="content-box">
                                 <span class="type">webcast</span>
                                 <span class="date">January 2020</span>
-                                <h4 class="heading">SOAR - Threatconnect, SaltyCloud, Siemplify, Swimlane</h4>
+                                <h4 class="heading dark-theme-color-white">SOAR - Threatconnect, SaltyCloud, Siemplify, Swimlane</h4>
                                 <a class="btn-text" href="" target="_blank">Read More <img src="content/images/icons/arrow-right.svg" alt=""></a>
                             </div>
                         </div>
@@ -82,7 +82,7 @@
                             <div class="content-box">
                                 <span class="type">webcast</span>
                                 <span class="date">January 2020</span>
-                                <h4 class="heading">HIMSS <br>Scanning</h4>
+                                <h4 class="heading dark-theme-color-white">HIMSS <br>Scanning</h4>
                                 <a class="btn-text" href="" target="_blank">Read More <img src="content/images/icons/arrow-right.svg" alt=""></a>
                             </div>
                         </div>
@@ -93,7 +93,7 @@
                             <div class="content-box">
                                 <span class="type">webcast</span>
                                 <span class="date">February 2020</span>
-                                <h4 class="heading">Threat Intel - Online webcast with Domain Tools</h4>
+                                <h4 class="heading dark-theme-color-white">Threat Intel - Online webcast with Domain Tools</h4>
                                 <a class="btn-text" href="" target="_blank">Read More <img src="content/images/icons/arrow-right.svg" alt=""></a>
                             </div>
                         </div>
@@ -104,7 +104,7 @@
                             <div class="content-box">
                                 <span class="type">webcast</span>
                                 <span class="date">January 2020</span>
-                                <h4 class="heading">SOAR - Threatconnect, SaltyCloud, Siemplify, Swimlane</h4>
+                                <h4 class="heading dark-theme-color-white">SOAR - Threatconnect, SaltyCloud, Siemplify, Swimlane</h4>
                                 <a class="btn-text" href="" target="_blank">Read More <img src="content/images/icons/arrow-right.svg" alt=""></a>
                             </div>
                         </div>
@@ -115,13 +115,46 @@
                             <div class="content-box">
                                 <span class="type">webcast</span>
                                 <span class="date">January 2020</span>
-                                <h4 class="heading">HIMSS <br>Scanning</h4>
+                                <h4 class="heading dark-theme-color-white">HIMSS <br>Scanning</h4>
+                                <a class="btn-text" href="" target="_blank">Read More <img src="content/images/icons/arrow-right.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-content-block hide">
+                        <div class="img-content-box">
+                            <div class="img-box img-box-webcast"></div>
+                            <div class="content-box">
+                                <span class="type">webcast</span>
+                                <span class="date">February 2020</span>
+                                <h4 class="heading dark-theme-color-white">Threat Intel - Online webcast with Domain Tools</h4>
+                                <a class="btn-text" href="" target="_blank">Read More <img src="content/images/icons/arrow-right.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-content-block hide">
+                        <div class="img-content-box">
+                            <div class="img-box img-box-webcast-2"></div>
+                            <div class="content-box">
+                                <span class="type">webcast</span>
+                                <span class="date">January 2020</span>
+                                <h4 class="heading dark-theme-color-white">SOAR - Threatconnect, SaltyCloud, Siemplify, Swimlane</h4>
+                                <a class="btn-text" href="" target="_blank">Read More <img src="content/images/icons/arrow-right.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-content-block hide">
+                        <div class="img-content-box">
+                            <div class="img-box img-box-webcast-3"></div>
+                            <div class="content-box">
+                                <span class="type">webcast</span>
+                                <span class="date">January 2020</span>
+                                <h4 class="heading dark-theme-color-white">HIMSS <br>Scanning</h4>
                                 <a class="btn-text" href="" target="_blank">Read More <img src="content/images/icons/arrow-right.svg" alt=""></a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <button class="btn btn-primary btn-load-more d-block mx-auto">Load More</button>
+                <button class="btn btn-primary load-more-publications mx-auto">Load More</button>
             </div>
         </section>
     </main>

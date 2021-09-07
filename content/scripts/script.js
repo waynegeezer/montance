@@ -130,6 +130,12 @@ $(document).ready(function() {
             });
         }
     // end
+    // load more publications
+        $('.load-more-publications').click(function() {
+            $('.img-content-block.hide').removeClass('hide');
+            $(this).hide();
+        });
+    // end
     // Bootstrap carousel
         $('.carousel-soc-class').carousel({
             interval: false

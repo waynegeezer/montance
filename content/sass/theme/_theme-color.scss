@@ -145,6 +145,18 @@ body {
                     color: $grey-1000;
                 }
             }
-        } 
+        }
+        .img-content-block {
+            .img-content-box {
+                background: $blue-400;
+                @include border-style(1px, solid,  $blue-300);
+            }
+            .dark-theme-color-white, .heading {
+                color: $white-600;
+            }
+            .date {
+                color: $grey-1200;
+            }
+        }
     }
 }
