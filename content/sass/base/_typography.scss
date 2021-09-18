@@ -1,0 +1,19 @@
+/* Typography */
+h1, h2, h3 {
+    font-family: $red-hat-black;
+    @include font-size(36px, 47px);
+    color: $blue-100;
+    @include media-breakpoint-down(sm) {
+        @include font-size(28px, 36px);
+    }
+}
+h1 {
+    margin: 0 0 20px;
+}
+h2, h3 {
+    margin: 0 0 10px;
+}
+p {
+    @include font-size(16px, 22px);
+    margin: 0 0 20px;
+}

@@ -1,0 +1,96 @@
+/* Footer */ 
+footer {
+    background-color: $blue;
+    padding: 55px 0 35px;
+    @include media-breakpoint-down(sm) {
+        padding: 40px 0;
+    }
+    .footer-flex, .footer-links-list {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: space-between;
+        @include media-breakpoint-down(lg) {
+            flex-flow: row wrap;
+        }
+    }
+    .footer-links-list {
+        @include media-breakpoint-down(sm) {
+            width: 100%;
+        }
+        li {
+            margin-right: 40px;
+            @include media-breakpoint-down(sm) {
+                margin: 0 0 20px;
+                width: 33%;
+                text-align: center;
+            }
+            &:first-child {
+                @include media-breakpoint-down(sm) {
+                    width: 100%;
+                    margin: 0 0 20px;
+                }
+            }
+            .footer-logo {
+                margin-right: 10px;
+                width: 134px;
+                display: block;
+                @include media-breakpoint-down(sm) {
+                    margin: 0 auto;
+                }
+            }
+            a {
+                color: $grey-500;
+                @include hover {
+                    opacity: 0.8;
+                }
+            }
+        }
+    }
+    .input-group-button {
+        border-color: $blue-300;
+        width: 450px;
+        @include media-breakpoint-down(lg) {
+            margin-top: 35px;
+        }
+        .form-control {
+            background-color: transparent;
+        }
+        .btn-primary {
+            width: 197px;
+        }
+    }
+    .footer-block-2 {
+        margin-top: 135px;
+        @include media-breakpoint-down(lg) {
+            margin-top: 90px;
+        }
+        @include media-breakpoint-down(sm) {
+            margin-top: 30px;
+        }
+        p {
+            @include font-size(14px, 1);
+            color: $grey-500;
+            @include media-breakpoint-down(sm) {
+                text-align: center;
+                width: 100%;
+            }
+            &:first-child {
+                @include media-breakpoint-down(sm) {
+                    margin-bottom: 0;
+                    order: 2;
+                }
+            }
+            a:not(.btn-text) {
+                color: $grey-500 !important;
+                margin-right: 20px;
+                &:last-child {
+                    margin-right: 0;
+                }
+                @include hover {
+                    opacity: 0.7;
+                }
+            }
+        }
+    }
+}

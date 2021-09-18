@@ -1,0 +1,84 @@
+/* VARIABLES */
+/* Font Families */
+$red-hat-italic: 'RedHatDisplayItalic', sans-serif;
+$red-hat-medium: 'RedHatDisplayMedium', sans-serif;
+$red-hat-black: 'RedHatDisplayBlack', sans-serif;
+$red-hat-bold: 'RedHatDisplayBold', sans-serif;
+$avenir-book: 'AvenirBook', sans-serif;
+$avenir-heavy: 'AvenirHeavy', sans-serif;
+$avenir-medium: 'AvenirMedium', sans-serif;
+$avenir-roman: 'AvenirRoman', sans-serif;
+
+/* Colors */
+$white: #fff;
+$white-100: #F6F8FF;
+$white-200: #CFD5E9;
+$white-300: #F0F3FF;
+$white-400: #F9FAFF;
+$white-500: #E3E9FF;
+$white-600: #E9E9E9;
+$black: #000;
+$black-100: rgba(0, 0, 0, 0.2);
+$black-200: rgba(0, 0, 0, 0.06);
+$black-300: rgba(246, 248, 255, 0);
+$black-400: rgba(0, 0, 0, 0.5);
+$grey: #6E7887;
+$grey-100: #A2B4C6;
+$grey-200: #83828F;
+$grey-300: #8893B1;
+$grey-400: #777A9D;
+$grey-500: #A2A6B8;
+$grey-600: #60688E;
+$grey-700: #C3CFFC;
+$grey-800: #838CAC;
+$grey-900: #B6C6D5;
+$grey-1000: #D5DCF5;
+$grey-1100: #9499AE;
+$orange: #FF300A;
+$orange-100: #FE673E;
+$orange-200: rgba(254, 93, 68, 0.1);
+$orange-300: #FE5D44;
+$blue: #121427;
+$blue-100: #203043;
+$blue-300: #2B2E4E;
+$blue-400: #1A1C33;
+$blue-500: rgba(0, 102, 255, 0.15);
+$blue-600: #2D3151;
+$pink: #FD0079;
+$yellow: #FFD200;
+
+/* base font size */
+$font-size-base: 16px;
+
+/* Font Weight */
+$font-weight-light: 300;      /*$light*/
+$font-weight-normal: 400;     /*$regular*/
+$font-weight-medium: 500;     /*$medium*/
+$font-weight-semibold: 600;   /*$semibold*/
+$font-weight-bold: 700;       /*$bold*/
+$font-weight-extrabold: 800;  /*$extrabold*/
+$font-weight-black: 900;      /*$black*/
+
+/* Font Italic */
+$font-style-italic: italic; 
+$font-style-normal: normal; 
+
+/* HELPERS */
+/* Font Family */
+$font-families:(
+    avenir-medium: $avenir-medium,
+    avenir-book: $avenir-book
+);
+/* Text Colors */
+$text-colors:(
+    white: $white,
+    black: $black,
+    grey: $grey,
+    grey-100: $grey-100,
+    orange-300: $orange-300
+);
+/* background Colors */
+$bg-color:(
+    black: $black,
+    white: $white
+);

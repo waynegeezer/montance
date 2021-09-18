@@ -1,0 +1,62 @@
+/* MIXINS */
+
+/* Mixin for border */
+@mixin border-style ($border-width, $border-type, $border-color) {
+    border: $border-width $border-type $border-color;
+}
+/* Mixin for border-top */
+@mixin border-top-style ($border-width, $border-type, $border-color) {
+    border-top: $border-width $border-type $border-color;
+}
+/* Mixin for border-bottom */
+@mixin border-bottom-style ($border-width, $border-type, $border-color) {
+    border-bottom: $border-width $border-type $border-color;
+}
+/* Mixin for border-left */
+@mixin border-left-style ($border-width, $border-type, $border-color) {
+    border-left: $border-width $border-type $border-color;
+}
+/* Mixin for border-right */
+@mixin border-right-style ($border-width, $border-type, $border-color) {
+    border-right: $border-width $border-type $border-color;
+}
+/* Mixin for color opacity */
+@mixin color-opacity ($color, $opacity) {
+    color: rgba($color, $opacity);
+}
+/* Mixin for background color opacity */
+@mixin bg-color-opacity ($color, $opacity) {
+    background-color: rgba($color, $opacity);
+}
+/* Mixin for font size */
+@function calculateRem($size) {
+    $remSize: $size / 16px;
+    @return #{$remSize}rem;
+}
+@mixin font-size ($size, $size-height) {
+    font-size: $size; //Fallback in px
+    font-size: calculateRem($size);
+    line-height: $size-height;
+}
+/* Mixin for text shadow */ 
+@mixin text-shadow ($x, $y, $blur, $color: rgba(0,0,0,.3)) {
+    text-shadow: $x $y $blur $color;
+}
+/* Mixin for hover focus */ 
+@mixin hover-focus () {
+    &:hover, &:focus {
+        @content;
+    }
+}
+/* Mixin for hover */ 
+@mixin hover () {
+    &:hover {
+        @content;
+    }
+}
+/* Mixin for focus */ 
+@mixin focus () {
+    &:focus {
+        @content;
+    }
+}

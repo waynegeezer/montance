@@ -1,0 +1,183 @@
+/* Theme color */
+body {
+    background-color: $white-100;
+    &.dark-theme {
+        background-color: $blue;
+        .dark-theme-color-white {
+            color: $white-600;
+        }
+        p, li {
+            &.dark-theme-color-grey {
+                color: $grey-1000 !important;
+            }
+        }
+        .navbar {
+            background-color: $blue;
+            &.sticky-header {
+                box-shadow: 0 6px 25px -8px $black-400;
+            }
+            .navbar-collapse {
+                @include media-breakpoint-down(md) {
+                    background-color: $blue;
+                    box-shadow: 0 16px 53px 11px $black-100;
+                }
+            }
+        }
+        .navbar-brand {
+            img {
+                filter: invert(419%) sepia(135%) saturate(6661%) hue-rotate(236deg) brightness(385%) contrast(114%);
+            }
+        }
+        .navbar-nav {
+            .nav-link {
+                color: $white !important;
+                @include hover {
+                    opacity: 0.6;
+                }
+            }
+            .nav-theme {
+                background-color: $white;
+                img {
+                    filter: invert(15%) sepia(11%) saturate(2201%) hue-rotate(173deg) brightness(22%) contrast(91%);
+                }
+                &::before {
+                    border-color: $white;
+                }
+            }
+        }
+        .arrow-block {
+            &::before {
+                background-color: $blue;
+            }
+        }
+        .input-group-button {
+            border-color: $grey-800;
+        }
+        .form-control {
+            background-color: transparent !important;
+            color: $grey-900 !important;
+            border-color: $grey-800;
+        }
+        .carousel-soc-class {
+            &:after {
+                background-color: $blue-600;
+            }
+        }
+        .section-testimonials {
+            p:not(.name) {
+                color: $grey-1100;
+            }
+            .owl-item {
+                &.center {
+                    .testimonial-block {
+                        background-color: $blue-600;
+                        box-shadow: 0 0 19px $orange-200;
+                    }
+                }
+                .testimonial-block {
+                    @include media-breakpoint-down(md) {
+                        background-color: $blue-600;
+                        box-shadow: 0 0 19px $blue-500;
+                    }
+                }
+            }
+        }
+        .section-contact {
+            .contact-list { 
+                .dark-theme-color-grey { 
+                    color: $grey-1000 !important;
+                }
+                li:not(:last-child) img {
+                    filter: invert(47%) sepia(12%) saturate(878%) hue-rotate(198deg) brightness(101%) contrast(88%);
+                }
+            }  
+        }
+        .filter-grid {
+            .filter-block {
+                .filter-button {
+                    color: $grey-1000;
+                    border-color: $grey-800 !important;
+                    @include hover {
+                        @include bg-color-opacity($grey-700, 0.2);
+                    }
+                    @include media-breakpoint-down(sm) {
+                        color: $blue-400;
+                    }
+                    &.mixitup-control-active {
+                        border-color: $orange !important;
+                        @include media-breakpoint-down(sm) {
+                            color: $orange;
+                            border-color: $grey-800 !important;
+                            background-color: transparent !important;
+                        }
+                    }
+                }
+                .filter-name {
+                    @include media-breakpoint-down(sm) {
+                        background-color: $blue;
+                        color: $grey-900 !important;
+                        border-color: $grey-800;
+                    }
+                    svg {
+                        @include media-breakpoint-down(sm) {
+                            color: $white;
+                        }
+                    }
+                }
+            }
+        }
+        .filter-content-grid {
+            .filter-content-block {
+                &:before {
+                    background: linear-gradient(180deg, rgba(18, 20, 39, 0.1) 0%, $blue 71%);
+                }
+            }
+            .icon-content-box {
+                background-color: $blue-400;
+                border-color: $blue-300;
+                @include hover {
+                    background-color: $blue-600;
+                }
+                .icon-block {
+                    border-color: $blue-100;
+                }
+                .icon-content {
+                    color: $grey-1000;
+                }
+            }
+        } 
+        .soc-reference-model-block{
+
+            .soc-reference-model-light{
+                display: none;
+            }
+            .soc-reference-model-dark{
+                display: block;
+            }
+
+            /*&:before {
+                background: linear-gradient(180deg, rgba(18,20,39,0.1) 0%, #121427 71%);
+            }
+
+            &:after {
+                background: linear-gradient(0deg, rgba(18,20,39,0.1) 0%, #121427 71%);
+            }*/
+        }
+        .section-add-resources{
+
+            .resource-list{
+
+                li{
+                   background-color: $blue-400;
+                   border: 1px solid $blue-300;
+                   box-shadow: none;
+                   
+                   &:hover{
+                    background-color: $blue-400;
+                    border: 1px solid $blue-300;
+                   } 
+                }
+            }
+        }
+    }
+}
