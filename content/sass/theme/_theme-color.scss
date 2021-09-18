@@ -145,38 +145,17 @@ body {
                     color: $grey-1000;
                 }
             }
-        } 
-        .soc-reference-model-block{
-
-            .soc-reference-model-light{
-                display: none;
-            }
-            .soc-reference-model-dark{
-                display: block;
-            }
-
-            /*&:before {
-                background: linear-gradient(180deg, rgba(18,20,39,0.1) 0%, #121427 71%);
-            }
-
-            &:after {
-                background: linear-gradient(0deg, rgba(18,20,39,0.1) 0%, #121427 71%);
-            }*/
         }
-        .section-add-resources{
-
-            .resource-list{
-
-                li{
-                   background-color: $blue-400;
-                   border: 1px solid $blue-300;
-                   box-shadow: none;
-                   
-                   &:hover{
-                    background-color: $blue-400;
-                    border: 1px solid $blue-300;
-                   } 
-                }
+        .img-content-block {
+            .img-content-box {
+                background: $blue-400;
+                @include border-style(1px, solid,  $blue-300);
+            }
+            .dark-theme-color-white, .heading {
+                color: $white-600;
+            }
+            .date {
+                color: $grey-1200;
             }
         }
     }
