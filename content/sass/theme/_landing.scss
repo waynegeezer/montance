@@ -120,13 +120,10 @@
 } 
 /* SOC-Class Page */
 .soc-class-page{
-    
     .soc-class-block{
-
         img{
             //width: 100%;
         }
-
         .btn.btn-primary {
             width: 228px;
         }
@@ -142,14 +139,12 @@
         display: flex;
         box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.08);
         margin-top: 40px;
-
         .soc-video-link{
             display: flex;
             align-content: center;
             flex-wrap: wrap;
             height: 100%;
             width: 100%;
-
             img {
                 display: block;
                 margin: 0 auto;
@@ -166,14 +161,12 @@
     .soc-reference-model-block{
         width: 100%;
         position: relative;
-
         .soc-reference-model-light{
             display: block;
         }
         .soc-reference-model-dark{
             display: none;
         }
-
         /*&:before {
             content: "";
             position: absolute;
@@ -187,7 +180,6 @@
                 height: 190px;
             }
         }
-
         &:after {
             content: "";
             position: absolute;
@@ -204,14 +196,12 @@
     }
     .section-add-resources {
         padding: 150px 0;
-
         .resource-list {
             list-style: none;
             padding: 0;
             display: flex;
             justify-content: space-around;
             align-items: center;
-
             li {
                 border-radius: 20px;
                 width: 257px;
@@ -223,7 +213,6 @@
                 display: flex;
                 align-content: center;
                 flex-wrap: wrap;
-
                 &:hover {
                     background-color: $white;
                 }
@@ -239,13 +228,9 @@
         }
     }
 }
-
-
 /* Timeline Page */
 .timeline-page{
-
     .timeline-banner{
-
         h2{
             text-align: center;
         }
@@ -263,3 +248,20 @@
         }
     }
 }
+/* Publications Page */
+.section-publications {
+    padding-top: 100px;
+    @include media-breakpoint-down(md) {
+        padding-top: 80px;
+    }
+    @include media-breakpoint-down(sm) {
+        padding-top: 70px;
+    }
+    .load-more-publications {
+        margin-top: 60px;
+        display: block;
+        @include media-breakpoint-down(sm) {
+            margin-top: 20px;
+        }
+    }
+} 
