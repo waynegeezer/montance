@@ -10,6 +10,7 @@
     <title>Montance | Services</title>
     <link rel="canonical" href="" />
     <link rel="icon" href="content/images/favicon.png">
+    <link rel="stylesheet" href="content/css/aos.css">
     <link rel="stylesheet" href="content/css/bootstrap.min.css">
     <link rel="stylesheet" href="content/css/styles.css">
 </head>
@@ -22,11 +23,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
-                        <h1 class="dark-theme-color-white">Learn.Build.<span class="d-inline-block">Customize</span></h1>
-                        <p class="dark-theme-color-grey">Montance® LLC can recommend and execute an approvpriate tabletop, timeline, fixed price program and even custom solutions for your organization</p>
-                        <img class="illustration-img" src="content/images/illustrations/learn-built.png" alt="">
-                        <p class="illustration-space-text dark-theme-color-grey">Need a custom solution? Feel free to reach out</p>
-                        <div class="input-group input-group-button">
+                        <h1 class="dark-theme-color-white" data-aos="fade-up" data-aos-delay="200">Learn.Build.<span class="d-inline-block">Customize</span></h1>
+                        <p class="dark-theme-color-grey" data-aos="fade-up" data-aos-delay="200">Montance® LLC can recommend and execute an approvpriate tabletop, timeline, fixed price program and even custom solutions for your organization</p>
+                        <img class="illustration-img" src="content/images/illustrations/learn-built.png" alt="" data-aos="fade-up" data-aos-delay="300">
+                        <p class="illustration-space-text dark-theme-color-grey" data-aos="fade-up" data-aos-delay="200">Need a custom solution? Feel free to reach out</p>
+                        <div class="input-group input-group-button" data-aos="fade-up" data-aos-delay="200">
                             <input type="text" class="form-control" placeholder="Enter your email" aria-label="Enter your email">
                             <div class="input-group-append">
                                 <button class="btn btn-primary" type="button">Get Started</button>
@@ -42,10 +43,10 @@
         <section class="section-two-column">
             <div class="container">
                 <div class="row row-two-column">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
                         <img class="icon-img" src="content/images/icons/design-development-execution.png" alt="">
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
                         <p class="sub-sm-header">Tabletop or Purple Team</p>
                         <h2 class="dark-theme-color-white">Excercise Design, Development & Execution</h2>
                         <p class="dark-theme-color-grey">Montance® LLC can recommend and execute an appropriate tabletop to assure organizational interaction with the SOC is where it needs to be. Or, plan and execute an assessment of SOC capability.</p>
@@ -53,10 +54,10 @@
                     </div>
                 </div>
                 <div class="row row-two-column">
-                    <div class="col-lg-6 order-lg-1">
+                    <div class="col-lg-6 order-lg-1" data-aos="fade-up" data-aos-delay="300">
                         <img class="icon-img" src="content/images/icons/implementation.png" alt="">
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
                         <p class="sub-sm-header">Fixed Price Program</p>
                         <h2 class="dark-theme-color-white">Implementation Project Plan</h2>
                         <p class="dark-theme-color-grey">The Montance® timeline offering to guide SOC: design, build, and implementation.</p>
@@ -65,10 +66,10 @@
                     </div>
                 </div>
                 <div class="row row-two-column">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
                         <img class="icon-img" src="content/images/icons/implementation-consultation.png" alt="">
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
                         <p class="sub-sm-header">Fixed Price Program</p>
                         <h2 class="dark-theme-color-white">SOC Implementation Consultation</h2>
                         <p class="dark-theme-color-grey">Fixed priced, scheduled advisory program to develop a SOC, it is based upon the Gantt chart, adding access to SME guidance on a milestone driven basis.</p>
@@ -78,10 +79,10 @@
                     </div>
                 </div>
                 <div class="row row-two-column">
-                    <div class="col-lg-6 order-lg-1">
+                    <div class="col-lg-6 order-lg-1" data-aos="fade-up" data-aos-delay="300">
                         <img class="icon-img" src="content/images/icons/implementation.png" alt="">
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
                         <p class="sub-sm-header">Custom Pricing</p>
                         <h2 class="dark-theme-color-white">Custom Solution</h2>
                         <p class="dark-theme-color-grey">If you think Montance® LLC is the right consulting firm to assist you. We can discuss some specific custom solution for your organization.</p>
@@ -99,6 +100,7 @@
     <script defer src="content/scripts/jquery.min.js"></script>
     <script defer src="content/scripts/popper.min.js"></script>
     <script defer src="content/scripts/bootstrap.min.js"></script>
+    <script defer src="content/scripts/aos.js"></script>
     <script defer src="content/scripts/script.js"></script>
 </body>
 </html>

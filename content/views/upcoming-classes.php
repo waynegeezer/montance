@@ -1,7 +1,7 @@
 <section class="section-upcoming-classes cd-section" id="section-upcoming-classes">
     <div class="container">
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
                 <h2>Upcoming <span class="d-block">Classes</span></h2>
                 <p class="font-avenir-book">Sign up for class related updates</p>
                 <div class="input-group input-group-button">
@@ -11,7 +11,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-8">
+            <div class="col-lg-8" data-aos="fade-up" data-aos-delay="300">
                 <div class="overflow-carousel-upcoming-classes">
                     <div class="owl-carousel owl-theme carousel-upcoming-classes">
                         <div class="class-item">

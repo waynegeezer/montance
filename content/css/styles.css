@@ -1195,6 +1195,18 @@ main {
   top: -2px;
 }
 
+/* aos */
+@media (max-width: 1199.98px) {
+  /* line 214, ../sass/layout/_content.scss */
+  [data-aos^=fade][data-aos^=fade] {
+    opacity: 1;
+  }
+
+  /* line 217, ../sass/layout/_content.scss */
+  [data-aos=fade-up] {
+    transform: translate3d(0, 0, 0);
+  }
+}
 /* Section Upcoming Classes */
 /* line 2, ../sass/layout/_upcoming-classes.scss */
 .section-upcoming-classes {

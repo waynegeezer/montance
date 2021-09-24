@@ -10,6 +10,7 @@
     <title>Montance</title>
     <link rel="canonical" href="" />
     <link rel="icon" href="content/images/favicon.png">
+    <link rel="stylesheet" href="content/css/aos.css">
     <link rel="stylesheet" href="content/css/bootstrap.min.css">
     <link rel="stylesheet" href="content/css/owl.carousel.min.css">
     <link rel="stylesheet" href="content/css/styles.css">
@@ -30,7 +31,7 @@
         </div>
         <section class="section-banner section-banner-center cd-section" id="section-banner">
             <div class="container">
-                <div class="section-banner-block">
+                <div class="section-banner-block" data-aos="fade-up" data-aos-delay="200">
                     <h1 class="dark-theme-color-white">Optimum Security Protection for digital Assets</h1>
                     <p class="dark-theme-color-grey">Montance® LLC is a trusted independent Information Security partner providing cybersecurity assessment, and framework development services enabling clients to create a new SOC, or improve existing security operations. We are committed to enhancing your SOC capabilities to execute its mission: to provide optimum security protection for digital assets.</p>
                     <div class="input-group input-group-button">
@@ -48,15 +49,15 @@
         <section class="section-training cd-section" id="section-traning">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 offset-lg-6">
+                    <div class="col-lg-6 offset-lg-6" data-aos="fade-up" data-aos-delay="250">
                         <h2 class="dark-theme-color-white">Training for tomorrow</h2>
                         <p class="dark-theme-color-grey">Christopher Crowley has trained thousands of students globally with focus on Overall security operations, monitoring capability, mobile pen testing, and overall operational program development.</p>
                         <p class="dark-theme-color-grey">Montance® LLC has provided services to organizations large and small in the financial, industrial, energy, medical, and defense industries. It is a one-person consulting firm providing a vehicle for direct and efficient engagement.</p>
                     </div>
                     <div class="w-100"></div>
-                    <img class="illustration-img" src="content/images/illustrations/training-for-tomorrow.png" alt="">
+                    <img class="illustration-img" src="content/images/illustrations/training-for-tomorrow.png" alt="" data-aos="fade-up" data-aos-delay="350">
                     <div class="w-100"></div>
-                    <div class="col-lg-6 offset-lg-6 trained-block">
+                    <div class="col-lg-6 offset-lg-6 trained-block" data-aos="fade-up" data-aos-delay="300">
                         <p class="mb-0 font-avenir-medium color-grey-100">Previously trained at</p>
                         <ul class="logo-list no-list">
                             <li>
@@ -87,30 +88,15 @@
         <section class="section-soc-class">
             <div class="container">
                 <div class="row soc-class-block">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
                         <h2 class="dark-theme-color-white"><span class="d-block">SOC Class</span> Build and operate SOCs</h2>
                         <p class="dark-theme-color-grey">SOC-class is the Montance® LLC live instructional offering for those seeking to build or mature a Cyber Security Operations Center. Take this class to shorten the learning curve to excellence in your SOC.</p>
                         <a class="btn btn-primary" href="">Learn more</a>
                     </div>
                     <div class="col-lg-6 d-none d-lg-block">
-                        <div id="carousel-soc-class" class="carousel carousel-soc-class slide carousel-fade">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <p>I've been fortunate enough to attend more than a dozen big name cyber security, hacking and forensics courses over the past 9 years. The quality and breadth of subject matter in this SOC course more than equalled any I have done before. Well done Chris</p>
-                                    <p>Technologist (infosec, forensics, embedded systems) <span>Canberra</span></p>
-                                </div>
-                                <div class="carousel-item">
-                                    <p>I've been fortunate enough to attend more than a dozen big name cyber security, hacking and forensics courses over the past 9 years.</p>
-                                    <p>Technologist (infosec, forensics, embedded systems) <span>Canberra</span></p>
-                                </div>
-                            </div>
-                            <a class="carousel-control-prev" href="#carousel-soc-class" role="button" data-slide="prev">
-                                <img src="content/images/icons/arrow-circular-right.svg" alt="">
-                            </a>
-                            <a class="carousel-control-next" href="#carousel-soc-class" role="button" data-slide="next">
-                            <img src="content/images/icons/arrow-circular-right.svg" alt="">
-                            </a>
-                        </div>
+                        <?php
+                            include ("content/views/soc-carousel.php");
+                        ?>
                     </div>
                 </div>
             </div>
@@ -120,8 +106,8 @@
         ?>
         <section class="section-testimonials cd-section" id="section-testimonials">
             <div class="container">
-                <h2 class="text-center dark-theme-color-white">Testimonials</h2>
-                <div class="owl-carousel owl-theme carousel-testimonials">
+                <h2 class="text-center dark-theme-color-white" data-aos="fade-up" data-aos-delay="200">Testimonials</h2>
+                <div class="owl-carousel owl-theme carousel-testimonials" data-aos="fade-up" data-aos-delay="300">
                     <div class="testimonial-item">
                         <div class="testimonial-block">
                             <div class="testimonial-block-1">
@@ -173,6 +159,7 @@
     <script defer src="content/scripts/popper.min.js"></script>
     <script defer src="content/scripts/bootstrap.min.js"></script>
     <script defer src="content/scripts/owl.carousel.min.js"></script>
+    <script defer src="content/scripts/aos.js"></script>
     <script defer src="content/scripts/navigation-dots.js"></script>
     <script defer src="content/scripts/script.js"></script>
 </body>

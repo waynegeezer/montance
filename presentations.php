@@ -10,6 +10,7 @@
     <title>Montance</title>
     <link rel="canonical" href="" />
     <link rel="icon" href="content/images/favicon.png">
+    <link rel="stylesheet" href="content/css/aos.css">
     <link rel="stylesheet" href="content/css/bootstrap.min.css">
     <link rel="stylesheet" href="content/css/styles.css">
 </head>
@@ -21,7 +22,7 @@
         <section class="section-banner">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-5 col-xl-4">
+                    <div class="col-lg-5 col-xl-4" data-aos="fade-up" data-aos-delay="200">
                         <div class="details">
                             <span class="type">webcast</span>
                             <span class="date">February 2020</span>
@@ -29,7 +30,7 @@
                         <h1>Threat Intel Online webcast with Domain Tools</h1>
                         <p>In this webinar, DomainTools ' Senior Product Manager, Jackie Abrams, and Chris Crowley from SANS, will demonstrate how to understand attacker motivations, identify prime targets within your organization, and most effectively defend your critical and valued assets and access.</p>
                     </div>
-                    <div class="col-lg-7 col-xl-8 ">
+                    <div class="col-lg-7 col-xl-8" data-aos="fade-up" data-aos-delay="300">
                         <div class="video-grid">
                             <a href="">
                                 <img src="content/images/presentation-video-bg.png" alt="">
@@ -41,7 +42,7 @@
         </section>
         <section class="section-publications">
             <div class="container">
-                <div class="img-content-grid">
+                <div class="img-content-grid" data-aos="fade-up" data-aos-delay="350">
                     <div class="img-content-block">
                         <div class="img-content-box">
                             <div class="img-box img-box-webcast"></div>
@@ -199,7 +200,7 @@
                         </div>
                     </div>
                 </div>
-                <button class="btn btn-primary load-more-publications mx-auto">Load More</button>
+                <button class="btn btn-primary load-more-publications mx-auto" data-aos="fade-up" data-aos-delay="200">Load More</button>
             </div>
         </section>
     </main>
@@ -210,6 +211,7 @@
     <script defer src="content/scripts/jquery.min.js"></script>
     <script defer src="content/scripts/popper.min.js"></script>
     <script defer src="content/scripts/bootstrap.min.js"></script>
+    <script defer src="content/scripts/aos.js"></script>
     <script defer src="content/scripts/script.js"></script>
 </body>
 </html>

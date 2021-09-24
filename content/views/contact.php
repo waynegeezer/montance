@@ -2,9 +2,9 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-4">
-                <h2 class="dark-theme-color-white">Contact us</h2>
-                <p class="dark-theme-color-grey">Get in touch with me for any queries or requests regarding the course</p>
-                <div class="form-grid">
+                <h2 class="dark-theme-color-white" data-aos="fade-up" data-aos-delay="200">Contact us</h2>
+                <p class="dark-theme-color-grey" data-aos="fade-up" data-aos-delay="200">Get in touch with me for any queries or requests regarding the course</p>
+                <div class="form-grid"  data-aos="fade-up" data-aos-delay="300">
                     <div class="form-group">
                         <input type="text" class="form-control" id="contact-form-name" placeholder="Your name">
                         <input type="email" class="form-control" id="contact-form-email" placeholder="Your e-mail">
@@ -12,7 +12,7 @@
                         <button class="btn btn-primary">Send</button>
                     </div>
                 </div>
-                <ul class="contact-list no-list">
+                <ul class="contact-list no-list"  data-aos="fade-up" data-aos-delay="200">
                     <li class="align-items-start">
                         <img src="content/images/icons/location.svg" alt="">
                         <p class="dark-theme-color-grey">Montance LLC <br>267 Kentlands Blvd #5111 <br>Gaithersburg, MD, USA 20878</p>

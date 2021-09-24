@@ -209,3 +209,12 @@ main {
         }
     }
 }
+/* aos */
+@include media-breakpoint-down(lg) {
+    [data-aos^=fade][data-aos^=fade] {
+        opacity: 1;
+    }
+    [data-aos=fade-up] {
+        transform: translate3d(0, 0, 0);
+    }
+}

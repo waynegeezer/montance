@@ -9,6 +9,17 @@ $(window).scroll(function(){
 	}
 });
 
+/* AOS */ 
+$(window).on("load", function () {
+    if ($(window).width() > 1199) {
+        AOS.init({
+            disable:"mobile,tablet,phone",
+            duration:1000,
+            once: true
+        });
+    }
+});
+
 function calcTime(offset) {
     d = new Date();
     utc = d.getTime() + (d.getTimezoneOffset() * 60000);

@@ -10,6 +10,7 @@
     <title>Montance</title>
     <link rel="canonical" href="" />
     <link rel="icon" href="content/images/favicon.png">
+    <link rel="stylesheet" href="content/css/aos.css">
     <link rel="stylesheet" href="content/css/bootstrap.min.css">
     <link rel="stylesheet" href="content/css/styles.css">
 </head>
@@ -29,6 +30,7 @@
     <script defer src="content/scripts/jquery.min.js"></script>
     <script defer src="content/scripts/popper.min.js"></script>
     <script defer src="content/scripts/bootstrap.min.js"></script>
+    <script defer src="content/scripts/aos.js"></script>
     <script defer src="content/scripts/script.js"></script>
 </body>
 </html>

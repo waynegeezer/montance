@@ -10,6 +10,7 @@
     <title>Montance</title>
     <link rel="canonical" href="" />
     <link rel="icon" href="content/images/favicon.png">
+    <link rel="stylesheet" href="content/css/aos.css">
     <link rel="stylesheet" href="content/css/bootstrap.min.css">
     <link rel="stylesheet" href="content/css/styles.css">
 </head>
@@ -20,7 +21,7 @@
     <main>
         <section class="section-banner section-banner-center pb-0">
             <div class="container">
-                <div class="section-banner-block">
+                <div class="section-banner-block" data-aos="fade-up" data-aos-delay="200">
                     <h1 class="dark-theme-color-white">Resources</h1>
                     <p class="dark-theme-color-grey">These references have been collected over time. Some are google drive folders that contain many documents. Some are websites that are external to this page.</p>
                 </div>
@@ -29,7 +30,7 @@
         <section class="section-resources">
             <div class="filter-grid">
                 <div class="container">
-                    <div class="filter-block filter-block-1">
+                    <div class="filter-block filter-block-1" data-aos="fade-up" data-aos-delay="200">
                         <p class="filter-name"><span>Content Types</span> <svg class="d-md-none" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg></p>
                         <ul class="no-list filter-list custom-dropdown-list">
                             <li>
@@ -55,7 +56,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="filter-block filter-block-2">
+                    <div class="filter-block filter-block-2" data-aos="fade-up" data-aos-delay="300">
                         <p class="filter-name"><span>Subject</span> <svg class="d-md-none" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg></p>
                         <ul class="no-list filter-list custom-dropdown-list">
                             <li>
@@ -82,13 +83,13 @@
             </div>
             <div class="filter-content-grid">
                 <div class="container">
-                    <div class="search-block">
+                    <div class="search-block" data-aos="fade-up" data-aos-delay="200">
                         <div class="form-group form-group-search">
                             <input type="text" class="form-control" id="search-input-filter" placeholder="Search">
                         </div>
                         <p class="font-avenir-book color-grey d-none d-md-inline-block dark-theme-color-grey">Displaying <span id="resources-count">0</span> Resource(s)</p>
                     </div>
-                    <div class="filter-content-block">
+                    <div class="filter-content-block" data-aos="fade-up" data-aos-delay="300">
                         <div class="mixitup-container" id="mixitup-container">
                             <p class="mixitup-fail-message position-absolute dark-theme-color-grey" id="mixitup-fail-message">No items were found matching the selected filters. <button class="filter-button filter-button-all" type="button" data-filter="all">Clear all filters</button></p>
                             <div class="icon-content-block mix course-material">
@@ -189,7 +190,7 @@
                             </div>
                         </div>
                     </div>
-                    <button class="btn btn-primary load-more-resources" type="button">Load More</button>
+                    <button class="btn btn-primary load-more-resources" type="button" data-aos="fade-up" data-aos-delay="200">Load More</button>
                 </div>
             </div>
         </section>
@@ -202,6 +203,7 @@
     <script defer src="content/scripts/popper.min.js"></script>
     <script defer src="content/scripts/bootstrap.min.js"></script>
     <script defer src="content/scripts/mixitup.min.js"></script>
+    <script defer src="content/scripts/aos.js"></script>
     <script>
         if (screen && screen.width <= 767) { document.write('<script defer src="content/scripts/custom-dropdown.js"><\/script>'); } 
     </script>
