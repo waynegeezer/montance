@@ -1,0 +1,26 @@
+/* Video Section */
+.video-grid {
+    img {
+        width: 100%;
+    }
+    a {
+        display: block;
+        position: relative;
+        width: 100%;
+        &:before {
+            content: "";
+            background: url("../images/icons/play.svg") center no-repeat;
+            background-size: contain;
+            width: 78px;
+            height: 78px;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            top: 50%;
+            left: 50%;
+            @include media-breakpoint-down(xs) {
+                width: 32px;
+                height: 32px;
+            }
+        }
+    }
+} 

@@ -4,7 +4,7 @@ body {
     &.dark-theme {
         background-color: $blue;
         .dark-theme-color-white {
-            color: $white-600;
+            color: $white-600 !important;
         }
         p, li {
             &.dark-theme-color-grey {
@@ -156,6 +156,22 @@ body {
             }
             .date {
                 color: $grey-1200;
+            }
+        }
+        &.soc-class-page  {
+            .section-add-resources .resource-list li {
+                background-color: $blue-400;
+                @include border-style(1px, solid, $blue-300);
+                box-shadow: none;
+                @include hover {
+                    background-color: $blue-300;
+                }
+            }
+            .soc-reference-model-light {
+                display: none;
+            }
+            .soc-reference-model-dark {
+                display: block;
             }
         }
     }

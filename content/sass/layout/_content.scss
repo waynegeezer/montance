@@ -179,3 +179,33 @@ main {
         animation: movement-up-down  0.5s infinite;
     }
 }
+/* details with type, date */
+.details {
+    margin: 0 0 5px;
+    span {
+        display: inline-block;
+        position: relative;
+    }
+    .type {
+        font-family: $avenir-heavy;
+        @include font-size(12px, 1);
+        color: $orange-400;
+        text-transform: uppercase;
+    }
+    .date {
+        font-family: $avenir-book;
+        @include font-size(12px, 1);
+        color: $grey;
+        display: inline-block;
+        position: relative;
+        margin-left: 5px;
+        &:before {
+            content: ".";
+            position: relative;
+            color: $grey;
+            margin-right: 7px;
+            @include font-size(19px, 1);
+            top: -2px;
+        }
+    }
+}

@@ -119,27 +119,55 @@
     }
 } 
 /* SOC-Class Page */
-.soc-class-page{
-    .soc-class-block{
-        img{
-            //width: 100%;
+.soc-class-page {
+    .section-soc-class {
+        @include media-breakpoint-down(lg) {
+            padding-top: 80px;
+        }
+        @include media-breakpoint-down(md) {
+            padding-top: 40px;
+        }
+        .col-lg-6.d-none {
+            @include media-breakpoint-down(md) {
+                display: block !important;
+            }
+        }
+    }
+    .soc-class-block {
+        @include media-breakpoint-down(xs) {
+            margin-bottom: 50px;
         }
         .btn.btn-primary {
             width: 228px;
+            @include media-breakpoint-down(xs) {
+                width: 100%;
+            }
         }
     }
-    .soc-video-block{
-        background: url('../images/illustrations/soc-video-bg.jpg');
+    .soc-video-block {
+        background: url('../images/soc-video-bg.jpg');
         background-repeat: no-repeat;
         background-position: 50% 50%;
-        background-size: initial;
-        width: 1092px;
+        background-size: cover;
+        width: 100%;
         height: 614px;
         border-radius: 20px;
         display: flex;
-        box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.08);
+        box-shadow: 0 4px 40px rgba(0, 0, 0, 0.08);
         margin-top: 40px;
-        .soc-video-link{
+        @include media-breakpoint-down(lg) {
+            height: 530px;
+        }
+        @include media-breakpoint-down(md) {
+            height: 388px;
+        }
+        @include media-breakpoint-down(sm) {
+            height: 285px;
+        }
+        @include media-breakpoint-down(xs) {
+            height: 210px;
+        }
+        .soc-video-link {
             display: flex;
             align-content: center;
             flex-wrap: wrap;
@@ -148,19 +176,46 @@
             img {
                 display: block;
                 margin: 0 auto;
+                @include media-breakpoint-down(sm) {
+                    width: 60px;
+                }
             }
             p { 
                 font-family: $avenir-roman;
-                font-size: $font-size-base;
+                color: $grey;
                 margin-top: 10px;
                 width: 100%;
                 text-align: center;
+                @include media-breakpoint-down(sm) {
+                    @include font-size(12px, 1);
+                }
+            }
+        }
+    }
+    .section-two-column {
+        padding: 0 0 80px;
+        @include media-breakpoint-down(md) {
+            padding: 0 0 60px;
+        }
+    }
+    .row-two-column {
+        .btn-primary {
+            width: 260px;
+            margin-top: 10px;
+            @include media-breakpoint-down(xs) {
+                width: 100%;
             }
         }
     }
     .soc-reference-model-block{
         width: 100%;
         position: relative;
+        img {
+            width: 100%;
+            @include media-breakpoint-down(xs) {
+                margin-top: 20px;
+            }
+        }
         .soc-reference-model-light{
             display: block;
         }
@@ -195,33 +250,76 @@
         }*/
     }
     .section-add-resources {
-        padding: 150px 0;
+        padding-top: 150px;
+        @include media-breakpoint-down(lg) {
+            padding: 80px 0;
+        }
+        @include media-breakpoint-down(md) {
+            padding: 60px 0;
+        }
+        h2 {
+            margin-top: 30px;
+            @include media-breakpoint-down(md) {
+                margin-top: 0;
+            }
+        }
+        .btn-primary {
+            width: 195px;
+            @include media-breakpoint-down(xs) {
+                width: 100%;
+            }
+        }
+        .row-two-column {
+            align-items: flex-start;
+        }
         .resource-list {
             list-style: none;
             padding: 0;
             display: flex;
             justify-content: space-around;
             align-items: center;
+            @include media-breakpoint-down(md) {
+                margin-top: 50px;
+            }
+            @include media-breakpoint-down(xs) {
+                flex-flow: column wrap;
+            }
             li {
                 border-radius: 20px;
                 width: 257px;
                 height: 250px;
-                box-shadow: 0px 0px 25px rgba(0, 102, 255, 0.15);
-                background-color: $white-400;
                 text-align: center;
+                @include border-style(1px, solid, $white-500);
                 transition: all .5s;
                 display: flex;
                 align-content: center;
                 flex-wrap: wrap;
-                &:hover {
+                @include hover {
                     background-color: $white;
+                    box-shadow: 0 0 25px rgba(0, 102, 255, 0.15);
+                }
+                @include media-breakpoint-down(lg) {
+                    width: 46%;
+                }
+                @include media-breakpoint-down(xs) {
+                    width: 100%;
+                    margin-bottom: 20px;
+                    background-color: $white;
+                    box-shadow: 0 0 25px rgba(0, 102, 255, 0.15);
+                    border: none;
+                }
+                &:last-child {
+                    margin-bottom: 0;
                 }
                 img {
                     display: block;
                     margin: 0 auto;
                 }
                 p { 
-                    margin-top: 20px;
+                    font-family: $avenir-heavy;
+                    color: $blue-100;
+                    @include font-size(22px, 1);
+                    margin-top: 30px;
                     width: 100%;
                 }
             }
@@ -249,6 +347,24 @@
     }
 }
 /* Publications Page */
+.publications-page {
+    .section-banner {
+        padding: 60px 0 0;
+        background: none;
+        @include media-breakpoint-down(sm) {
+            padding: 40px 0 0;
+        }
+    }
+    .video-grid {
+        width: 96%;
+        margin: 0 0 0 auto;
+        @include media-breakpoint-down(md) {
+            width: 100%;
+            margin: 0 0 0 auto;
+        }
+    }
+}
+
 .section-publications {
     padding-top: 100px;
     @include media-breakpoint-down(md) {

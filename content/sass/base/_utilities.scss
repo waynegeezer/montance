@@ -8,6 +8,11 @@ ul {
 .hide {
     display: none;
 }
+.text-center-mobile {
+    @include media-breakpoint-down(xs) {
+        text-align: center;
+    }
+}
 /* Font Family */
 @each $font-name, $font-family in $font-families {
     .font-#{$font-name} {

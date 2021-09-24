@@ -58,28 +58,6 @@
         }
     }
     .content-box {
-        .type {
-            font-family: $avenir-heavy;
-            @include font-size(12px, 1);
-            color: $orange-400;
-            text-transform: uppercase;
-        }
-        .date {
-            font-family: $avenir-book;
-            @include font-size(12px, 1);
-            color: $grey;
-            display: inline-block;
-            position: relative;
-            margin-left: 5px;
-            &:before {
-                content: ".";
-                position: relative;
-                color: $grey;
-                margin-right: 7px;
-                @include font-size(19px, 1);
-                top: -2px;
-            }
-        }
         .heading {
             font-family: $avenir-heavy;
             @include font-size(22px, 26px);

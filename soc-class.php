@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="content/css/owl.carousel.min.css">
     <link rel="stylesheet" href="content/css/styles.css">
 </head>
-<body class="soc-class-page">
+<body class="soc-class-page dark-theme">
     <?php
         include ("content/views/header.php");
     ?>
@@ -23,8 +23,8 @@
             <div class="container">
                 <div class="row soc-class-block">
                     <div class="col-lg-6">
-                        <h2><span class="d-block">SOC Class</span> Build and operate SOCs</h2>
-                        <p>SOC-class is the Montance® LLC live instructional offering for those seeking to build or mature a Cyber Security Operations Center. Take this class to shorten the learning curve to excellence in your SOC.</p>
+                        <h2 class="dark-theme-color-white text-center-mobile"><span class="d-block">SOC Class</span> Build and operate SOCs</h2>
+                        <p class="dark-theme-color-grey text-center-mobile">SOC-class is the Montance® LLC live instructional offering for those seeking to build or mature a Cyber Security Operations Center. Take this class to shorten the learning curve to excellence in your SOC.</p>
                         <a class="btn btn-primary" href=""><img class="icon" src="content/images/icons/drive.svg" alt=""> Executive Summary</a>
                     </div>
                     <div class="col-lg-6 d-none d-lg-block">
@@ -48,6 +48,9 @@
                         </div>
                     </div>
                 </div>
+                <div class="arrow-block d-sm-none">
+                    <img src="content/images/icons/arrow-right.svg" alt="">
+                </div>
                 <div class="row course-video">
                     <div class="col-lg-12">
                         <div class="soc-video-block">
@@ -60,53 +63,49 @@
                 </div>
             </div>
         </section>
-
         <section class="section-two-column">
             <div class="container">
                 <div class="row row-two-column">
-                    <div class="col-lg-7 order-lg-1">
-                        <div class="soc-reference-model-block">
-                            <img class="soc-reference-model-light" src="content/images/illustrations/soc-reference-model-light.png" alt="">
-                            <img class="soc-reference-model-dark" src="content/images/illustrations/soc-reference-model-dark.png" alt="">
-                        </div>
-                    </div>
                     <div class="col-lg-5">
-                        <h2 class="dark-theme-color-white"><span class="d-block">SOC</span> Reference Model</h2>
-                        <p class="dark-theme-color-grey">The class is not technical in nature, however, it is deeply grounded in technical details. Those details will be elaborated to explain the rationale between choices. This class is more about equiping you on how to make decisions for your SOC, and less about telling you the specific way to do something. </p>
+                        <h2 class="dark-theme-color-white text-center-mobile"><span class="d-block">SOC</span> Reference Model</h2>
+                        <p class="dark-theme-color-grey text-center-mobile">The class is not technical in nature, however, it is deeply grounded in technical details. Those details will be elaborated to explain the rationale between choices. This class is more about equiping you on how to make decisions for your SOC, and less about telling you the specific way to do something. </p>
                         <a class="btn btn-primary" href=""><img class="icon" src="content/images/icons/drive.svg" alt=""> Download Presentation</a>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="soc-reference-model-block">
+                            <img class="soc-reference-model-light" src="content/images/soc-reference-model-light.png" alt="">
+                            <img class="soc-reference-model-dark" src="content/images/soc-reference-model-dark.png" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-
         <?php
             include ("content/views/upcoming-classes.php");
         ?>
-
         <section class="section-add-resources section-two-column">
             <div class="container">
                 <div class="row row-two-column">
-                    <div class="col-lg-6 order-lg-1">
+                    <div class="col-lg-6">
+                        <h2 class="dark-theme-color-white text-center-mobile">Additional Resources</h2>
+                        <p class="dark-theme-color-grey text-center-mobile">An online version of the class is not yet available, but is under development with Applied Network Defense. The delay in delivery of the course is resulting from Christopher Crowley's inclination toward classroom delivery, and AND's experience with online delivery modalities. More work is being done to produce the best quality course. If you want to discuss an interim remote delivery of the live class, please contact Christopher Crowley.</p>
+                        <a class="btn btn-primary" href="">View All Resources</a>
+                    </div>
+                    <div class="col-lg-6">
                         <ul class="resource-list">
                             <li>
                                 <img class="icon" src="content/images/icons/presentation.svg" alt="">
-                                <p>Latest <br>Presentations</p>
+                                <p class="dark-theme-color-white">Latest <br>Presentations</p>
                             </li>
                             <li>
                                 <img class="icon" src="content/images/icons/video.svg" alt="">
-                                <p>Latest <br>Videos</p>
+                                <p class="dark-theme-color-white">Latest <br>Videos</p>
                             </li>
                         </ul>
-                    </div>
-                    <div class="col-lg-6">
-                        <h2 class="dark-theme-color-white">Additional Resources</h2>
-                        <p class="dark-theme-color-grey">An online version of the class is not yet available, but is under development with Applied Network Defense. The delay in delivery of the course is resulting from Christopher Crowley's inclination toward classroom delivery, and AND's experience with online delivery modalities. More work is being done to produce the best quality course. If you want to discuss an interim remote delivery of the live class, please contact Christopher Crowley.</p>
-                        <a class="btn btn-primary" href="">View All Resources</a>
                     </div>
                 </div>
             </div>
         </section>
-
         <?php
             include ("content/views/contact.php");
         ?>
@@ -119,7 +118,6 @@
     <script defer src="content/scripts/popper.min.js"></script>
     <script defer src="content/scripts/bootstrap.min.js"></script>
     <script defer src="content/scripts/owl.carousel.min.js"></script>
-    <script defer src="content/scripts/navigation-dots.js"></script>
     <script defer src="content/scripts/script.js"></script>
 </body>
 </html>
