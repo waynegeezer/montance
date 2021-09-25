@@ -326,26 +326,6 @@
         }
     }
 }
-/* Timeline Page */
-.timeline-page{
-    .timeline-banner{
-        h2{
-            text-align: center;
-        }
-        p{
-            text-align: center;
-            width: 720px;
-            margin: 0 auto 20px;
-            display: block;
-        }
-        a{
-            text-align: center;
-            margin: 0 auto;
-            display: block;
-            width: 246px;
-        }
-    }
-}
 /* Publications Page */
 .publications-page {
     .section-banner {
@@ -381,3 +361,171 @@
         }
     }
 } 
+/* Timeline Page */
+.timeline-page{
+
+    .timeline-banner{
+
+        h2{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+            width: 720px;
+            margin: 0 auto 20px;
+            display: block;
+        }
+        a{
+            text-align: center;
+            margin: 0 auto;
+            display: block;
+            width: 246px;
+        }
+    }
+    .section-timeline{
+        padding-top: 0;
+
+        .timeline-blocker{
+            position: absolute;
+            width: 100%;
+            height: 340px;
+            z-index: 3;
+            left: 0;
+            right: 0;
+        }
+        .slider{
+            height: 340px;
+            display: flex;
+            padding-left: 115px;
+            position: relative;
+
+            .timeline-divider{
+                height: 1px;
+                width: 14000px;
+                background-color: $light-blue;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                margin: auto;
+            }
+            .timeline-block{
+                width: 250px;
+                margin-right: 104px;
+                position: relative;
+                padding-left: 15px;
+
+                &:nth-child(1){
+                    margin-left: 115px;
+                }
+                &:last-child{
+                    //margin-right: 0;
+                }
+
+                &.content-bottom{
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: flex-end;
+                    align-content: flex-end;
+
+                    &:before{
+                        position: absolute;
+                        content: " ";
+                        height: 50%;
+                        width: 1px;
+                        border-left: 1px dotted $light-blue;
+                        bottom: 0;
+                        left: 0;
+                        z-index: 1;
+                    }
+                    &:after{
+                        position: absolute;
+                        content: " ";
+                        height: 13px;
+                        width: 13px;
+                        background-color: $orange-300;
+                        border-radius: 50%;
+                        top: 0;
+                        bottom: 0;
+                        left: -6px;
+                        margin: auto;
+                        z-index: 1;
+                    }
+                    .tl-date{
+                        font-family: 'AvenirHeavy';
+                        font-size: 16px;
+                        line-height: 120%;
+                        color: $grey-100;
+                        position: absolute;
+                        width: 100%;
+                        height: 20px;
+                        top: -38px;
+                        bottom: 0;
+                        left: -18px;
+                        margin: auto;
+                        z-index: 1;
+                        text-align: left;
+                    }
+                }
+                &.content-top{
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: flex-start;
+                    align-content: flex-start;
+
+                    &:before{
+                        position: absolute;
+                        content: " ";
+                        height: 50%;
+                        width: 1px;
+                        border-left: 1px dotted $light-blue;
+                        top: 0;
+                        left: 0;
+                        z-index: 1;
+                    }
+                    &:after{
+                        position: absolute;
+                        content: " ";
+                        height: 13px;
+                        width: 13px;
+                        background-color: $orange-300;
+                        border-radius: 50%;
+                        top: 0;
+                        bottom: 0;
+                        left: -6px;
+                        margin: auto;
+                        z-index: 1;
+                    }
+                    .tl-date{
+                        font-family: 'AvenirHeavy';
+                        font-size: 16px;
+                        line-height: 120%;
+                        color: $grey-100;
+                        position: absolute;
+                        width: 100%;
+                        height: 20px;
+                        top: 38px;
+                        bottom: 0;
+                        left: -18px;
+                        margin: auto;
+                        z-index: 1;
+                        text-align: left;
+                    }
+                }
+                .tl-title{
+                    font-family: 'AvenirHeavy';
+                    font-size: 16px;
+                    line-height: 120%;
+                    color: #203043;
+                }
+                .tl-description{
+                    font-size: 13px;
+                    line-height: 150%;
+                }
+                .tl-title{
+                    font-size: 14px;
+                    line-height: 150%;
+                }
+            }
+        }
+    }
+}
