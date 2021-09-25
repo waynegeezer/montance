@@ -7,7 +7,7 @@
     <meta name="title" content="">
     <meta name="description" content="" />
     <meta name="keywords" content="" />
-    <title>Montance</title>
+    <title>Montance | Contact</title>
     <link rel="canonical" href="" />
     <link rel="icon" href="content/images/favicon.png">
     <link rel="stylesheet" href="content/css/aos.css">
