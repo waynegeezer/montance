@@ -3273,7 +3273,7 @@ body.dark-theme .dark-theme-color-white {
   color: #E9E9E9 !important;
 }
 /* line 10, ../sass/theme/_theme-color.scss */
-body.dark-theme p.dark-theme-color-grey, body.dark-theme li.dark-theme-color-grey {
+body.dark-theme p.dark-theme-color-grey, body.dark-theme li.dark-theme-color-grey, body.dark-theme div.dark-theme-color-grey {
   color: #D5DCF5 !important;
 }
 /* line 14, ../sass/theme/_theme-color.scss */

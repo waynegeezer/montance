@@ -6,7 +6,7 @@ body {
         .dark-theme-color-white {
             color: $white-600 !important;
         }
-        p, li {
+        p, li, div {
             &.dark-theme-color-grey {
                 color: $grey-1000 !important;
             }
