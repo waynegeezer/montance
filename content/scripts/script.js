@@ -46,6 +46,17 @@ function checkResourcesItems() {
 }
 
 $(document).ready(function() {
+    // $(document).bind("contextmenu",function(e){
+    //   return false;
+    // });
+
+    // $('.js-tilt').tilt({
+    //     maxTilt: 20,
+    //     scale: 1.1,
+    //     perspective: 200,
+    //     speed: 1000
+    // });
+
     checkResourcesItems();
     // dark theme process
         $('.nav-theme').click(function() {
@@ -202,11 +213,4 @@ $(document).ready(function() {
             });
         }
     // end
-    //Timeline
-        $("#montance-timeline").mCustomScrollbar({
-            axis:"x", // horizontal scrollbar
-            mouseWheel: false,
-            scrollbarPosition: "outside"
-        });
-    //end
 });

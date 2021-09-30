@@ -3097,18 +3097,24 @@ main {
   margin: 0 auto 20px;
   display: block;
 }
-/* line 378, ../sass/theme/_landing.scss */
+@media (max-width: 1199.98px) {
+  /* line 372, ../sass/theme/_landing.scss */
+  .timeline-page .timeline-banner p {
+    width: 100%;
+  }
+}
+/* line 382, ../sass/theme/_landing.scss */
 .timeline-page .timeline-banner a {
   text-align: center;
   margin: 0 auto;
   display: block;
   width: 246px;
 }
-/* line 385, ../sass/theme/_landing.scss */
+/* line 389, ../sass/theme/_landing.scss */
 .timeline-page .section-timeline {
   padding-top: 0;
 }
-/* line 388, ../sass/theme/_landing.scss */
+/* line 392, ../sass/theme/_landing.scss */
 .timeline-page .section-timeline .timeline-blocker {
   position: absolute;
   width: 100%;
@@ -3117,14 +3123,14 @@ main {
   left: 0;
   right: 0;
 }
-/* line 396, ../sass/theme/_landing.scss */
+/* line 400, ../sass/theme/_landing.scss */
 .timeline-page .section-timeline .slider {
   height: 340px;
   display: flex;
   padding-left: 115px;
   position: relative;
 }
-/* line 402, ../sass/theme/_landing.scss */
+/* line 406, ../sass/theme/_landing.scss */
 .timeline-page .section-timeline .slider .timeline-divider {
   height: 1px;
   width: 14000px;
@@ -3134,25 +3140,25 @@ main {
   bottom: 0;
   margin: auto;
 }
-/* line 411, ../sass/theme/_landing.scss */
+/* line 415, ../sass/theme/_landing.scss */
 .timeline-page .section-timeline .slider .timeline-block {
   width: 250px;
   margin-right: 104px;
   position: relative;
   padding-left: 15px;
 }
-/* line 417, ../sass/theme/_landing.scss */
+/* line 421, ../sass/theme/_landing.scss */
 .timeline-page .section-timeline .slider .timeline-block:nth-child(1) {
   margin-left: 115px;
 }
-/* line 424, ../sass/theme/_landing.scss */
+/* line 428, ../sass/theme/_landing.scss */
 .timeline-page .section-timeline .slider .timeline-block.content-bottom {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-end;
   align-content: flex-end;
 }
-/* line 430, ../sass/theme/_landing.scss */
+/* line 434, ../sass/theme/_landing.scss */
 .timeline-page .section-timeline .slider .timeline-block.content-bottom:before {
   position: absolute;
   content: " ";
@@ -3163,7 +3169,7 @@ main {
   left: 0;
   z-index: 1;
 }
-/* line 440, ../sass/theme/_landing.scss */
+/* line 444, ../sass/theme/_landing.scss */
 .timeline-page .section-timeline .slider .timeline-block.content-bottom:after {
   position: absolute;
   content: " ";
@@ -3177,7 +3183,7 @@ main {
   margin: auto;
   z-index: 1;
 }
-/* line 453, ../sass/theme/_landing.scss */
+/* line 457, ../sass/theme/_landing.scss */
 .timeline-page .section-timeline .slider .timeline-block.content-bottom .tl-date {
   font-family: 'AvenirHeavy';
   font-size: 16px;
@@ -3193,14 +3199,14 @@ main {
   z-index: 1;
   text-align: left;
 }
-/* line 469, ../sass/theme/_landing.scss */
+/* line 473, ../sass/theme/_landing.scss */
 .timeline-page .section-timeline .slider .timeline-block.content-top {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
   align-content: flex-start;
 }
-/* line 475, ../sass/theme/_landing.scss */
+/* line 479, ../sass/theme/_landing.scss */
 .timeline-page .section-timeline .slider .timeline-block.content-top:before {
   position: absolute;
   content: " ";
@@ -3211,7 +3217,7 @@ main {
   left: 0;
   z-index: 1;
 }
-/* line 485, ../sass/theme/_landing.scss */
+/* line 489, ../sass/theme/_landing.scss */
 .timeline-page .section-timeline .slider .timeline-block.content-top:after {
   position: absolute;
   content: " ";
@@ -3225,7 +3231,7 @@ main {
   margin: auto;
   z-index: 1;
 }
-/* line 498, ../sass/theme/_landing.scss */
+/* line 502, ../sass/theme/_landing.scss */
 .timeline-page .section-timeline .slider .timeline-block.content-top .tl-date {
   font-family: 'AvenirHeavy';
   font-size: 16px;
@@ -3241,19 +3247,19 @@ main {
   z-index: 1;
   text-align: left;
 }
-/* line 514, ../sass/theme/_landing.scss */
+/* line 518, ../sass/theme/_landing.scss */
 .timeline-page .section-timeline .slider .timeline-block .tl-title {
   font-family: 'AvenirHeavy';
   font-size: 16px;
   line-height: 120%;
   color: #203043;
 }
-/* line 520, ../sass/theme/_landing.scss */
+/* line 524, ../sass/theme/_landing.scss */
 .timeline-page .section-timeline .slider .timeline-block .tl-description {
   font-size: 13px;
   line-height: 150%;
 }
-/* line 524, ../sass/theme/_landing.scss */
+/* line 528, ../sass/theme/_landing.scss */
 .timeline-page .section-timeline .slider .timeline-block .tl-title {
   font-size: 14px;
   line-height: 150%;

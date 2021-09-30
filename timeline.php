@@ -258,5 +258,16 @@
     <script defer src="content/scripts/jquery.mCustomScrollbar.concat.min.js"></script>
     <script defer src="content/scripts/aos.js"></script>
     <script defer src="content/scripts/script.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            //Timeline
+                $("#montance-timeline").mCustomScrollbar({
+                    axis:"x", // horizontal scrollbar
+                    mouseWheel: false,
+                    scrollbarPosition: "outside"
+                });
+            //end
+        });
+    </script>
 </body>
 </html>

@@ -374,6 +374,10 @@
             width: 720px;
             margin: 0 auto 20px;
             display: block;
+
+            @include media-breakpoint-down(lg) {
+                width: 100%; 
+            }
         }
         a{
             text-align: center;

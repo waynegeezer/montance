@@ -44,7 +44,7 @@
             <div class="container">
                 <div class="row row-two-column">
                     <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-                        <img class="icon-img" src="content/images/icons/design-development-execution.png" alt="">
+                        <div class="js-tilt data-tilt"><img class="icon-img" src="content/images/icons/design-development-execution.png" alt=""></div>
                     </div>
                     <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
                         <p class="sub-sm-header">Tabletop or Purple Team</p>
@@ -55,7 +55,7 @@
                 </div>
                 <div class="row row-two-column">
                     <div class="col-lg-6 order-lg-1" data-aos="fade-up" data-aos-delay="300">
-                        <img class="icon-img" src="content/images/icons/implementation.png" alt="">
+                        <div class="js-tilt data-tilt"><img class="icon-img" src="content/images/icons/implementation.png" alt=""></div>
                     </div>
                     <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
                         <p class="sub-sm-header">Fixed Price Program</p>
@@ -67,7 +67,7 @@
                 </div>
                 <div class="row row-two-column">
                     <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-                        <img class="icon-img" src="content/images/icons/implementation-consultation.png" alt="">
+                        <div class="js-tilt data-tilt"><img class="icon-img" src="content/images/icons/implementation-consultation.png" alt=""></div>
                     </div>
                     <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
                         <p class="sub-sm-header">Fixed Price Program</p>
@@ -80,7 +80,7 @@
                 </div>
                 <div class="row row-two-column">
                     <div class="col-lg-6 order-lg-1" data-aos="fade-up" data-aos-delay="300">
-                        <img class="icon-img" src="content/images/icons/implementation.png" alt="">
+                        <div class="js-tilt data-tilt"><img class="icon-img" src="content/images/icons/implementation.png" alt=""></div>
                     </div>
                     <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
                         <p class="sub-sm-header">Custom Pricing</p>
@@ -97,10 +97,22 @@
         include ("content/views/footer.php");
     ?>
 
-    <script defer src="content/scripts/jquery.min.js"></script>
+    <script src="content/scripts/jquery.min.js"></script>
     <script defer src="content/scripts/popper.min.js"></script>
     <script defer src="content/scripts/bootstrap.min.js"></script>
     <script defer src="content/scripts/aos.js"></script>
+    <script defer src="content/scripts/tilt.jquery.js"></script>
     <script defer src="content/scripts/script.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+
+            $('.js-tilt').tilt({
+                maxTilt: 15,
+                scale: 1.1,
+                perspective: 200,
+                speed: 1000
+            });
+        });
+    </script>
 </body>
 </html>
