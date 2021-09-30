@@ -176,5 +176,10 @@ body {
                 display: block;
             }
         }
+        .carousel-soc-class {
+            &::before {
+                opacity: 0.1;
+            }
+        }
     }
 }

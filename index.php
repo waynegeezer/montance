@@ -88,12 +88,12 @@
         <section class="section-soc-class">
             <div class="container">
                 <div class="row soc-class-block">
-                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
                         <h2 class="dark-theme-color-white"><span class="d-block">SOC Class</span> Build and operate SOCs</h2>
                         <p class="dark-theme-color-grey">SOC-class is the Montance® LLC live instructional offering for those seeking to build or mature a Cyber Security Operations Center. Take this class to shorten the learning curve to excellence in your SOC.</p>
                         <a class="btn btn-primary" href="">Learn more</a>
                     </div>
-                    <div class="col-lg-6 d-none d-lg-block">
+                    <div class="col-lg-12">
                         <?php
                             include ("content/views/soc-carousel.php");
                         ?>

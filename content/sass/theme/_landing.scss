@@ -143,6 +143,9 @@
                 width: 100%;
             }
         }
+        > div:first-child p {
+            padding-right: 0;
+        }
     }
     .soc-video-block {
         background: url('../images/soc-video-bg.jpg');
