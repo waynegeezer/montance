@@ -24,6 +24,7 @@
             <ul class="navigation-dots no-list">
                 <li><a class="active" href="#section-banner"></a></li>
                 <li><a href="#section-traning"></a></li>
+                <li><a href="#section-soc-class"></a></li>
                 <li><a href="#section-upcoming-classes"></a></li>
                 <li><a href="#section-testimonials"></a></li>
                 <li><a href="#section-contact"></a></li>
@@ -85,13 +86,13 @@
                 </div>
             </div>
         </section>
-        <section class="section-soc-class">
+        <section class="section-soc-class cd-section" id="section-soc-class">
             <div class="container">
                 <div class="row soc-class-block">
                     <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
                         <h2 class="dark-theme-color-white"><span class="d-block">SOC Class</span> Build and operate SOCs</h2>
                         <p class="dark-theme-color-grey">SOC-class is the Montance® LLC live instructional offering for those seeking to build or mature a Cyber Security Operations Center. Take this class to shorten the learning curve to excellence in your SOC.</p>
-                        <a class="btn btn-primary" href="">Learn more</a>
+                        <a class="btn btn-primary" href="soc-class.php">Learn more</a>
                     </div>
                     <div class="col-lg-12">
                         <?php
