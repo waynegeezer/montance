@@ -97,22 +97,11 @@
         include ("content/views/footer.php");
     ?>
 
-    <script src="content/scripts/jquery.min.js"></script>
+    <script defer src="content/scripts/jquery.min.js"></script>
     <script defer src="content/scripts/popper.min.js"></script>
     <script defer src="content/scripts/bootstrap.min.js"></script>
     <script defer src="content/scripts/aos.js"></script>
     <script defer src="content/scripts/tilt.jquery.js"></script>
     <script defer src="content/scripts/script.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function() {
-
-            $('.js-tilt').tilt({
-                maxTilt: 15,
-                scale: 1.1,
-                perspective: 200,
-                speed: 1000
-            });
-        });
-    </script>
 </body>
 </html>
