@@ -10,7 +10,7 @@ $(window).scroll(function(){
 });
 
 /* AOS */ 
-$(window).on("load", function () {
+$(window).on("load resize", function () {
     if ($(window).width() > 1199) {
         AOS.init({
             disable:"mobile,tablet,phone",

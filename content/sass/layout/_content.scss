@@ -207,6 +207,12 @@ main {
             @include font-size(19px, 1);
             top: -2px;
         }
+        &.only-date {
+            margin-left: 0;
+            &:before {
+                display: none;
+            }
+        }
     }
 }
 /* aos */

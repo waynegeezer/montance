@@ -6,22 +6,22 @@
                     <img class="footer-logo" src="content/images/montance-logo-white.png" alt="">
                 </li>
                 <li>
-                    <a href="">SOC Class</a>
+                    <a href="soc-class.php">SOC Class</a>
                 </li>
                 <li>
-                    <a href="">Services</a>
+                    <a href="services.php">Services</a>
                 </li>
                 <li>
-                    <a href="">Timeline</a>
+                    <a href="timeline.php">Timeline</a>
                 </li>
                 <li>
-                    <a href="">Resources</a>
+                    <a href="resources.php">Resources</a>
                 </li>
                 <li class="d-md-none">
-                    <a href="">Presentations</a>
+                    <a href="presentations.php">Presentations</a>
                 </li>
                 <li class="d-md-none">
-                    <a href="">Contact</a>
+                    <a href="contact.php">Contact</a>
                 </li>
             </ul>
             <div class="input-group input-group-button d-none d-md-flex">

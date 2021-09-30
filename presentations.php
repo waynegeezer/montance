@@ -27,8 +27,8 @@
                             <span class="type">webcast</span>
                             <span class="date">February 2020</span>
                         </div>
-                        <h1>Threat Intel Online webcast with Domain Tools</h1>
-                        <p>In this webinar, DomainTools ' Senior Product Manager, Jackie Abrams, and Chris Crowley from SANS, will demonstrate how to understand attacker motivations, identify prime targets within your organization, and most effectively defend your critical and valued assets and access.</p>
+                        <h1 class="dark-theme-color-white">Threat Intel Online webcast with Domain Tools</h1>
+                        <p class="dark-theme-color-grey">In this webinar, DomainTools ' Senior Product Manager, Jackie Abrams, and Chris Crowley from SANS, will demonstrate how to understand attacker motivations, identify prime targets within your organization, and most effectively defend your critical and valued assets and access.</p>
                     </div>
                     <div class="col-lg-7 col-xl-8" data-aos="fade-up" data-aos-delay="300">
                         <div class="video-grid">
@@ -45,157 +45,164 @@
                 <div class="img-content-grid" data-aos="fade-up" data-aos-delay="350">
                     <div class="img-content-block">
                         <div class="img-content-box">
-                            <div class="img-box img-box-webcast"></div>
+                            <div class="img-box img-box-type-1 js-tilt data-tilt"></div>
                             <div class="content-box">
                                 <div class="details">
                                     <span class="type">webcast</span>
-                                    <span class="date">February 2020</span>
+                                    <span class="date">20 February 2020</span>
                                 </div>
-                                <h4 class="heading dark-theme-color-white">Threat Intel - Online webcast with Domain Tools</h4>
-                                <a class="btn-text" href="" target="_blank">Read More <img src="content/images/icons/arrow-right.svg" alt=""></a>
+                                <h4 class="heading dark-theme-color-white">Threat Intel - Online Webcast with Domain Tools</h4>
+                                <a class="btn-text" href="https://www.sans.org/webcasts/threat-actor-analysis-strategic-security-investments-112500/" target="_blank">Read More <img src="content/images/icons/arrow-right.svg" alt=""></a>
                             </div>
                         </div>
                     </div>
                     <div class="img-content-block">
                         <div class="img-content-box">
-                            <div class="img-box img-box-webcast-2"></div>
+                            <div class="img-box img-box-type-2 js-tilt data-tilt"></div>
                             <div class="content-box">
                                 <div class="details">
                                     <span class="type">webcast</span>
-                                    <span class="date">January 2020</span>
+                                    <span class="date">30 January 2020</span>
                                 </div>
-                                <h4 class="heading dark-theme-color-white">SOAR - Threatconnect, SaltyCloud, Siemplify, Swimlane</h4>
-                                <a class="btn-text" href="" target="_blank">Read More <img src="content/images/icons/arrow-right.svg" alt=""></a>
+                                <h4 class="heading dark-theme-color-white">SOAR - ThreatConnect, SaltyCloud, Siemplify, Swimlane - Online Webcast</h4>
+                                <a class="btn-text" href="https://www.sans.org/webcasts/automation-orchestration-solutions-forum-112740/" target="_blank">Read More <img src="content/images/icons/arrow-right.svg" alt=""></a>
                             </div>
                         </div>
                     </div>
                     <div class="img-content-block">
                         <div class="img-content-box">
-                            <div class="img-box img-box-webcast-3"></div>
+                            <div class="img-box img-box-type-2 js-tilt data-tilt"></div>
                             <div class="content-box">
                                 <div class="details">
-                                    <span class="type">webcast</span>
-                                    <span class="date">January 2020</span>
+                                    <!-- <span class="type"></span> -->
+                                    <span class="date only-date">19 December 2019</span>
                                 </div>
-                                <h4 class="heading dark-theme-color-white">HIMSS <br>Scanning</h4>
-                                <a class="btn-text" href="" target="_blank">Read More <img src="content/images/icons/arrow-right.svg" alt=""></a>
+                                <h4 class="heading dark-theme-color-white">SOAR The Right Way - Hyderabad, India</h4>
                             </div>
                         </div>
                     </div>
                     <div class="img-content-block">
                         <div class="img-content-box">
-                            <div class="img-box img-box-webcast"></div>
+                            <div class="img-box img-box-type-3 js-tilt data-tilt"></div>
                             <div class="content-box">
                                 <div class="details">
-                                    <span class="type">webcast</span>
-                                    <span class="date">February 2020</span>
+                                    <!-- <span class="type"></span> -->
+                                    <span class="date only-date">9 December 2019</span>
                                 </div>
-                                <h4 class="heading dark-theme-color-white">Threat Intel - Online webcast with Domain Tools</h4>
-                                <a class="btn-text" href="" target="_blank">Read More <img src="content/images/icons/arrow-right.svg" alt=""></a>
+                                <h4 class="heading dark-theme-color-white">HIMSS Vulnerability Scanning Panel - Boston, MA</h4>
                             </div>
                         </div>
                     </div>
                     <div class="img-content-block">
                         <div class="img-content-box">
-                            <div class="img-box img-box-webcast-2"></div>
+                            <div class="img-box img-box-type-1 js-tilt data-tilt"></div>
                             <div class="content-box">
                                 <div class="details">
-                                    <span class="type">webcast</span>
-                                    <span class="date">January 2020</span>
+                                    <!-- <span class="type"></span> -->
+                                    <span class="date only-date">3-5 December 2019</span>
                                 </div>
-                                <h4 class="heading dark-theme-color-white">SOAR - Threatconnect, SaltyCloud, Siemplify, Swimlane</h4>
-                                <a class="btn-text" href="" target="_blank">Read More <img src="content/images/icons/arrow-right.svg" alt=""></a>
+                                <h4 class="heading dark-theme-color-white">SOC-Class - Washington, DC</h4>
+                                <a class="btn-text" href="https://www.soc-class.com/" target="_blank">Read More <img src="content/images/icons/arrow-right.svg" alt=""></a>
                             </div>
                         </div>
                     </div>
                     <div class="img-content-block">
                         <div class="img-content-box">
-                            <div class="img-box img-box-webcast-3"></div>
+                            <div class="img-box img-box-type-1 js-tilt data-tilt"></div>
                             <div class="content-box">
                                 <div class="details">
                                     <span class="type">webcast</span>
-                                    <span class="date">January 2020</span>
+                                    <span class="date">14 November 2019</span>
                                 </div>
-                                <h4 class="heading dark-theme-color-white">HIMSS <br>Scanning</h4>
-                                <a class="btn-text" href="" target="_blank">Read More <img src="content/images/icons/arrow-right.svg" alt=""></a>
+                                <h4 class="heading dark-theme-color-white">Hiring and Retaining for the SOC - Online Webcast</h4>
+                                <a class="btn-text" href="https://www.sans.org/webcasts/hiring-retaining-soc-recruit-train-retain-talented-dedicated-staff-112195/" target="_blank">Read More <img src="content/images/icons/arrow-right.svg" alt=""></a>
                             </div>
                         </div>
                     </div>
                     <div class="img-content-block">
                         <div class="img-content-box">
-                            <div class="img-box img-box-webcast"></div>
+                            <div class="img-box img-box-type-2 js-tilt data-tilt"></div>
                             <div class="content-box">
                                 <div class="details">
-                                    <span class="type">webcast</span>
-                                    <span class="date">February 2020</span>
+                                    <!-- <span class="type">webcast</span> -->
+                                    <span class="date only-date">6 November 2019</span>
                                 </div>
-                                <h4 class="heading dark-theme-color-white">Threat Intel - Online webcast with Domain Tools</h4>
-                                <a class="btn-text" href="" target="_blank">Read More <img src="content/images/icons/arrow-right.svg" alt=""></a>
+                                <h4 class="heading dark-theme-color-white">SOAR The Right Way - Mumbai, India</h4>
                             </div>
                         </div>
                     </div>
                     <div class="img-content-block">
                         <div class="img-content-box">
-                            <div class="img-box img-box-webcast-2"></div>
+                            <div class="img-box img-box-type-1 js-tilt data-tilt"></div>
                             <div class="content-box">
                                 <div class="details">
                                     <span class="type">webcast</span>
-                                    <span class="date">January 2020</span>
+                                    <span class="date">10 July 2019</span>
                                 </div>
-                                <h4 class="heading dark-theme-color-white">SOAR - Threatconnect, SaltyCloud, Siemplify, Swimlane</h4>
-                                <a class="btn-text" href="" target="_blank">Read More <img src="content/images/icons/arrow-right.svg" alt=""></a>
+                                <h4 class="heading dark-theme-color-white">Common and Best Practices for SOC - Survey Webcast</h4>
+                                <a class="btn-text" href="https://www.sans.org/webcasts/common-practices-security-operations-centers-results-2019-soc-survey-110050/" target="_blank">Read More <img src="content/images/icons/arrow-right.svg" alt=""></a>
                             </div>
                         </div>
                     </div>
                     <div class="img-content-block">
                         <div class="img-content-box">
-                            <div class="img-box img-box-webcast-3"></div>
+                            <div class="img-box img-box-type-1 js-tilt data-tilt"></div>
                             <div class="content-box">
                                 <div class="details">
-                                    <span class="type">webcast</span>
-                                    <span class="date">January 2020</span>
+                                    <!-- <span class="type"></span> -->
+                                    <span class="date only-date">24-25 June 2019</span>
                                 </div>
-                                <h4 class="heading dark-theme-color-white">HIMSS <br>Scanning</h4>
-                                <a class="btn-text" href="" target="_blank">Read More <img src="content/images/icons/arrow-right.svg" alt=""></a>
+                                <h4 class="heading dark-theme-color-white">SOC Summit - New Orleans, LA</h4>
                             </div>
                         </div>
                     </div>
                     <div class="img-content-block hide">
                         <div class="img-content-box">
-                            <div class="img-box img-box-webcast"></div>
+                            <div class="img-box img-box-type-3 js-tilt data-tilt"></div>
                             <div class="content-box">
                                 <div class="details">
                                     <span class="type">webcast</span>
-                                    <span class="date">February 2020</span>
+                                    <span class="date">20 June 2019</span>
                                 </div>
-                                <h4 class="heading dark-theme-color-white">Threat Intel - Online webcast with Domain Tools</h4>
-                                <a class="btn-text" href="" target="_blank">Read More <img src="content/images/icons/arrow-right.svg" alt=""></a>
+                                <h4 class="heading dark-theme-color-white">MITRE ATTACK Coverage with ExtraHop - Online Webcast</h4>
+                                <a class="btn-text" href="https://www.sans.org/webcasts/increase-mitre-att-ck-coverage-network-traffic-analysis-110893/" target="_blank">Read More <img src="content/images/icons/arrow-right.svg" alt=""></a>
                             </div>
                         </div>
                     </div>
                     <div class="img-content-block hide">
                         <div class="img-content-box">
-                            <div class="img-box img-box-webcast-2"></div>
+                            <div class="img-box img-box-type-3 js-tilt data-tilt"></div>
                             <div class="content-box">
                                 <div class="details">
-                                    <span class="type">webcast</span>
-                                    <span class="date">January 2020</span>
+                                    <!-- <span class="type"></span> -->
+                                    <span class="date only-date">7 March 2019</span>
                                 </div>
-                                <h4 class="heading dark-theme-color-white">SOAR - Threatconnect, SaltyCloud, Siemplify, Swimlane</h4>
-                                <a class="btn-text" href="" target="_blank">Read More <img src="content/images/icons/arrow-right.svg" alt=""></a>
+                                <h4 class="heading dark-theme-color-white">Equifax Breach Recap - Hong Kong, Hong Kong</h4>
                             </div>
                         </div>
                     </div>
                     <div class="img-content-block hide">
                         <div class="img-content-box">
-                            <div class="img-box img-box-webcast-3"></div>
+                            <div class="img-box img-box-type-2 js-tilt data-tilt"></div>
                             <div class="content-box">
                                 <div class="details">
-                                    <span class="type">webcast</span>
-                                    <span class="date">January 2020</span>
+                                    <!-- <span class="type"></span> -->
+                                    <span class="date only-date">5 March 2019</span>
                                 </div>
-                                <h4 class="heading dark-theme-color-white">HIMSS <br>Scanning</h4>
-                                <a class="btn-text" href="" target="_blank">Read More <img src="content/images/icons/arrow-right.svg" alt=""></a>
+                                <h4 class="heading dark-theme-color-white">Equifax Breach Recap - Manila, Phillipines</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-content-block hide">
+                        <div class="img-content-box">
+                            <div class="img-box img-box-type-2 js-tilt data-tilt"></div>
+                            <div class="content-box">
+                                <div class="details">
+                                    <!-- <span class="type"></span> -->
+                                    <span class="date only-date">8 February 2019</span>
+                                </div>
+                                <h4 class="heading dark-theme-color-white">SOAR Vendor Brief - Denver, CO</h4>
+                                <a class="btn-text" href="https://www.sans.org/webcasts/automation-integration-security-briefing-soaring-heights-orchestration-automation-tools-theyre-intended-109965/" target="_blank">Read More <img src="content/images/icons/arrow-right.svg" alt=""></a>
                             </div>
                         </div>
                     </div>
@@ -212,6 +219,7 @@
     <script defer src="content/scripts/popper.min.js"></script>
     <script defer src="content/scripts/bootstrap.min.js"></script>
     <script defer src="content/scripts/aos.js"></script>
+    <script defer src="content/scripts/tilt.jquery.js"></script>
     <script defer src="content/scripts/script.js"></script>
 </body>
 </html>

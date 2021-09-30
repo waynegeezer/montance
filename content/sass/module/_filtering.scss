@@ -11,6 +11,7 @@
             width: 48%;
             display: inline-block;
             margin: 0 15px 0 0;
+            z-index: 1;
         }
         @include media-breakpoint-down(xs) {
             margin: 0 0 20px 0;
@@ -25,6 +26,7 @@
         }
         &.open {
             @include media-breakpoint-down(sm) {
+                z-index: 2;
                 svg {
                     transform: translateY(-50%) rotate(-180deg) !important;
                 }
@@ -190,6 +192,7 @@
             &::before {
                 background: none !important;
                 z-index: -1;
+                height: 0;
             }
         }
         &:before {
