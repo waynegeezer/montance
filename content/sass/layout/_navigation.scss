@@ -190,3 +190,16 @@
         }
     }
 }
+/* active element */
+body {
+    &.soc-class-page .nav-link-soc, 
+    &.presentations-page .nav-link-presentations, 
+    &.services-page .nav-link-services, 
+    &.timeline-page .nav-link-timeline, 
+    &.resources-page .nav-link-resources, 
+    &.contact-page .nav-link-contact {
+        color: $orange !important;
+        text-decoration: underline;
+        opacity: 1 !important;
+    } 
+}

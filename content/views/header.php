@@ -12,22 +12,22 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="soc-class.php">SOC Class</a>
+                        <a class="nav-link nav-link-soc" href="soc-class.php">SOC Class</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="presentations.php">Presentations</a>
+                        <a class="nav-link nav-link-presentations" href="presentations.php">Presentations</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="services.php">Services</a>
+                        <a class="nav-link nav-link-services" href="services.php">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="timeline.php">Timeline</a>
+                        <a class="nav-link nav-link-timeline" href="timeline.php">Timeline</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="resources.php">Resources</a>
+                        <a class="nav-link nav-link-resources" href="resources.php">Resources</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.php">Contact</a>
+                        <a class="nav-link nav-link-contact" href="contact.php">Contact</a>
                     </li>
                     <li class="nav-item">
                         <button class="nav-theme">

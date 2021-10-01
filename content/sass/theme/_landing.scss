@@ -97,7 +97,7 @@
     }
 }
 /* Resources Page */
-.resouces-page {
+.resources-page {
     .section-banner {
         background: none;
         padding-top: 110px;
@@ -329,8 +329,8 @@
         }
     }
 }
-/* Publications Page */
-.publications-page {
+/* Presentations Page */
+.presentations-page {
     .section-banner {
         padding: 60px 0 0;
         background: none;
@@ -348,7 +348,7 @@
     }
 }
 
-.section-publications {
+.section-presentations {
     padding-top: 100px;
     @include media-breakpoint-down(md) {
         padding-top: 80px;
@@ -356,7 +356,7 @@
     @include media-breakpoint-down(sm) {
         padding-top: 70px;
     }
-    .load-more-publications {
+    .load-more-presentations {
         margin-top: 60px;
         display: block;
         @include media-breakpoint-down(sm) {

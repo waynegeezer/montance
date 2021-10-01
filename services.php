@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="content/css/bootstrap.min.css">
     <link rel="stylesheet" href="content/css/styles.css">
 </head>
-<body>
+<body class="services-page">
     <?php
         include ("content/views/header.php");
     ?>

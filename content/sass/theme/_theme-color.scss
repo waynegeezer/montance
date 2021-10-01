@@ -30,8 +30,9 @@ body {
         }
         .navbar-nav {
             .nav-link {
-                color: $white !important;
+                color: $white;
                 @include hover {
+                    color: $white;
                     opacity: 0.6;
                 }
             }

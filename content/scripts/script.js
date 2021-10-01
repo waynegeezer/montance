@@ -164,8 +164,8 @@ $(document).ready(function() {
             });
         }
     // end
-    // load more publications
-        $('.load-more-publications').click(function() {
+    // load more presentations
+        $('.load-more-presentations').click(function() {
             $('.img-content-block.hide').removeClass('hide');
             $(this).hide();
         });

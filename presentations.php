@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="content/css/bootstrap.min.css">
     <link rel="stylesheet" href="content/css/styles.css">
 </head>
-<body class="publications-page">
+<body class="presentations-page">
     <?php
         include ("content/views/header.php");
     ?>
@@ -40,7 +40,7 @@
                 </div>
             </div>
         </section>
-        <section class="section-publications">
+        <section class="section-presentations">
             <div class="container">
                 <div class="img-content-grid" data-aos="fade-up" data-aos-delay="350">
                     <div class="img-content-block">
@@ -207,7 +207,7 @@
                         </div>
                     </div>
                 </div>
-                <button class="btn btn-primary load-more-publications mx-auto" data-aos="fade-up" data-aos-delay="200">Load More</button>
+                <button class="btn btn-primary load-more-presentations mx-auto" data-aos="fade-up" data-aos-delay="200">Load More</button>
             </div>
         </section>
     </main>
