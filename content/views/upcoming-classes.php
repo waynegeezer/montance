@@ -16,54 +16,37 @@
                     <div class="owl-carousel owl-theme carousel-upcoming-classes">
                         <div class="class-item">
                             <div class="class-item-block">
-                                <p class="country">Europe</p>
-                                <p class="date">27 Aug 2021</p>
+                                <p class="country">USA</p>
+                                <p class="date">9-11 Nov 2021</p>
                                 <ul class="no-list">
-                                    <li>
+                                    <!-- <li>
                                         <img src="content/images/icons/clock.svg" alt="">
-                                        <p>12:30pm GMT</p>
-                                    </li>
+                                        <p></p>
+                                    </li> -->
                                     <li>
                                         <img src="content/images/icons/location.svg" alt="">
-                                        <p>Online Event</p>
+                                        <p>Caesars Palace, Las Vegas (in person only)</p>
                                     </li>
                                 </ul>
-                                <a class="btn btn-primary" href="" target="_blank">Buy Tickets</a>
+                                <a class="btn btn-primary" href="https://www.eventbrite.com/e/soc-class-eastern-time-online-only-tickets-134224415841" target="_blank">Buy Tickets</a>
                             </div>
                         </div>
                         <div class="class-item">
                             <div class="class-item-block">
                                 <p class="country">USA</p>
-                                <p class="date">09 Aug 2021</p>
+                                <p class="date">8 Dec 2021</p>
                                 <ul class="no-list">
                                     <li>
                                         <img src="content/images/icons/clock.svg" alt="">
-                                        <p>12:30pm GMT</p>
+                                        <p>9:00 AM EST</p>
                                     </li>
                                     <li>
                                         <img src="content/images/icons/location.svg" alt="">
-                                        <p>Caesars Palace Drive Paradise, NV 89109 United States<br><a class="btn-text" href="">View Location <img src="content/images/icons/arrow-right.svg" alt=""></a></p>
+                                        <p>Online event<br><a class="btn-text" href="https://www.eventbrite.com/e/soc-class-eastern-time-online-only-tickets-134224415841?aff=ebdsoporgprofile#add-to-calendar-modal" target="_blank">Add to calendar <img src="content/images/icons/arrow-right.svg" alt=""></a></p>
                                         
                                     </li>
                                 </ul>
-                                <a class="btn btn-primary" href="" target="_blank">Buy Tickets</a>
-                            </div>
-                        </div>
-                        <div class="class-item">
-                            <div class="class-item-block">
-                                <p class="country">USA</p>
-                                <p class="date">09 Aug 2021</p>
-                                <ul class="no-list">
-                                    <li>
-                                        <img src="content/images/icons/clock.svg" alt="">
-                                        <p>12:30pm GMT</p>
-                                    </li>
-                                    <li>
-                                        <img src="content/images/icons/location.svg" alt="">
-                                        <p>Caesars Palace Drive Paradise, NV 89109 United States</p>
-                                    </li>
-                                </ul>
-                                <a class="btn btn-primary" href="" target="_blank">Buy Tickets</a>
+                                <a class="btn btn-primary" href="https://www.eventbrite.com/e/soc-class-eastern-time-online-only-tickets-134224415841?aff=ebdsoporgprofile" target="_blank">Buy Tickets</a>
                             </div>
                         </div>
                     </div>

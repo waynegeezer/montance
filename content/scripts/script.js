@@ -203,7 +203,7 @@ $(document).ready(function() {
         if ($("section").hasClass("section-upcoming-classes")) {
             $('.carousel-upcoming-classes').owlCarousel({
                 mouseDrag:true,
-                loop:true,
+                loop:false,
                 margin:0,
                 autoWidth:true,
                 smartSpeed:1200,

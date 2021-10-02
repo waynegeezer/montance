@@ -276,15 +276,49 @@
                     background: url("../images/icons/ppt.svg") no-repeat 0;
                 }
             }
+            &.icon-block-doc {
+                &:before {
+                    background: url("../images/icons/doc.svg") no-repeat 0;
+                }
+            }
+            &.icon-block-jpg {
+                &:before {
+                    background: url("../images/icons/jpg.svg") no-repeat 0;
+                }
+            }
+            &.icon-block-txt {
+                &:before {
+                    background: url("../images/icons/txt.svg") no-repeat 0;
+                }
+            }
+            &.icon-block-vsdx {
+                &:before {
+                    background: url("../images/icons/vsdx.svg") no-repeat 0;
+                }
+            }
+            &.icon-block-zip {
+                &:before {
+                    background: url("../images/icons/zip.svg") no-repeat 0;
+                }
+            }
+            &.icon-block-tif {
+                &:before {
+                    background: url("../images/icons/tif.svg") no-repeat 0;
+                }
+            }
         }
         .icon-content {
             font-family: $avenir-medium;
             color: $blue-100;
             padding: 13px 20px 0;
+            max-height: 60px;
+            overflow: hidden;
             @include media-breakpoint-down(sm) {
                 padding: 0 0 0 10px;
                 margin: 0;
                 width: 86%;
+                max-height: none;
+                overflow: visible;
             }
             @include media-breakpoint-down(xs) {
                 width: 84%;

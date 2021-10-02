@@ -1427,10 +1427,6 @@ main {
     text-align: center;
   }
 }
-/* line 140, ../sass/layout/_upcoming-classes.scss */
-.section-upcoming-classes .carousel-upcoming-classes .owl-nav.disabled {
-  display: block;
-}
 /* line 143, ../sass/layout/_upcoming-classes.scss */
 .section-upcoming-classes .carousel-upcoming-classes .owl-nav > button {
   margin-right: 20px;
@@ -2389,26 +2385,54 @@ main {
   background: url("../images/icons/ppt.svg") no-repeat 0;
 }
 /* line 280, ../sass/module/_filtering.scss */
+.filter-content-grid .icon-content-box .icon-block.icon-block-doc:before {
+  background: url("../images/icons/doc.svg") no-repeat 0;
+}
+/* line 285, ../sass/module/_filtering.scss */
+.filter-content-grid .icon-content-box .icon-block.icon-block-jpg:before {
+  background: url("../images/icons/jpg.svg") no-repeat 0;
+}
+/* line 290, ../sass/module/_filtering.scss */
+.filter-content-grid .icon-content-box .icon-block.icon-block-txt:before {
+  background: url("../images/icons/txt.svg") no-repeat 0;
+}
+/* line 295, ../sass/module/_filtering.scss */
+.filter-content-grid .icon-content-box .icon-block.icon-block-vsdx:before {
+  background: url("../images/icons/vsdx.svg") no-repeat 0;
+}
+/* line 300, ../sass/module/_filtering.scss */
+.filter-content-grid .icon-content-box .icon-block.icon-block-zip:before {
+  background: url("../images/icons/zip.svg") no-repeat 0;
+}
+/* line 305, ../sass/module/_filtering.scss */
+.filter-content-grid .icon-content-box .icon-block.icon-block-tif:before {
+  background: url("../images/icons/tif.svg") no-repeat 0;
+}
+/* line 310, ../sass/module/_filtering.scss */
 .filter-content-grid .icon-content-box .icon-content {
   font-family: "AvenirMedium", sans-serif;
   color: #203043;
   padding: 13px 20px 0;
+  max-height: 60px;
+  overflow: hidden;
 }
 @media (max-width: 767.98px) {
-  /* line 280, ../sass/module/_filtering.scss */
+  /* line 310, ../sass/module/_filtering.scss */
   .filter-content-grid .icon-content-box .icon-content {
     padding: 0 0 0 10px;
     margin: 0;
     width: 86%;
+    max-height: none;
+    overflow: visible;
   }
 }
 @media (max-width: 575.98px) {
-  /* line 280, ../sass/module/_filtering.scss */
+  /* line 310, ../sass/module/_filtering.scss */
   .filter-content-grid .icon-content-box .icon-content {
     width: 84%;
   }
 }
-/* line 294, ../sass/module/_filtering.scss */
+/* line 328, ../sass/module/_filtering.scss */
 .filter-content-grid .load-more-resources {
   display: block;
   margin: 0 auto;
@@ -2416,7 +2440,7 @@ main {
   z-index: 2;
 }
 @media (max-width: 767.98px) {
-  /* line 300, ../sass/module/_filtering.scss */
+  /* line 334, ../sass/module/_filtering.scss */
   .filter-content-grid .mixitup-fail-message {
     top: 0;
     width: 100%;
@@ -2424,7 +2448,7 @@ main {
   }
 }
 @media (max-width: 767.98px) {
-  /* line 306, ../sass/module/_filtering.scss */
+  /* line 340, ../sass/module/_filtering.scss */
   .filter-content-grid .mixitup-fail-message button {
     display: block;
     margin: 15px auto 0;
