@@ -48,6 +48,7 @@
             }
             @include focus {
                 opacity: 1;
+                color: $blue-100;
             }
         }
         .nav-link {

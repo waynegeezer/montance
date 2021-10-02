@@ -536,3 +536,12 @@
         }
     }
 }
+/* SOC - Additional Information */
+.soc-additional-information {
+    .btn-primary-drive {
+        width: 300px !important;
+        @include media-breakpoint-down(xs) {
+            width: 100% !important;
+        }
+    }
+} 

@@ -35,6 +35,9 @@ body {
                     color: $white;
                     opacity: 0.6;
                 }
+                @include focus {
+                    color: $white;
+                }
             }
             .nav-theme {
                 background-color: $white;
