@@ -12,6 +12,7 @@
     <link rel="icon" href="content/images/favicon.png">
     <link rel="stylesheet" href="content/css/aos.css">
     <link rel="stylesheet" href="content/css/bootstrap.min.css">
+    <link rel="stylesheet" href="content/css/lity.min.css">
     <link rel="stylesheet" href="content/css/styles.css">
 </head>
 <body class="soc-additional-information">
@@ -82,7 +83,7 @@
                         <p class="sub-sm-header">July, 2017, New Orleans, LA, USA</p>
                         <h2 class="dark-theme-color-white">Threat Hunting</h2>
                         <p class="dark-theme-color-grey">Crowley's talk on how to leverage threat hunting in Security Operations.</p>
-                        <p class="dark-theme-color-grey"><a class="btn-text" href="https://www.youtube.com/watch?v=pDY639JsT7I&t=8s" target="_blank">Watch the video on youtube</a></p>
+                        <p class="dark-theme-color-grey"><a class="btn-text" href="https://www.youtube.com/watch?v=pDY639JsT7I&t=8s" target="_blank" data-lity>Watch the video on youtube</a></p>
                         <a class="btn btn-primary btn-primary-drive" href="https://drive.google.com/file/d/1QXiKwrHgJ1TcFWz75UITB8EzOIHU-xvb/view"  target="_blank"><img class="icon" src="content/images/icons/drive.svg" alt="">Download the slide deck</a>
                     </div>
                 </div>
@@ -98,6 +99,7 @@
     <script defer src="content/scripts/bootstrap.min.js"></script>
     <script defer src="content/scripts/aos.js"></script>
     <script defer src="content/scripts/tilt.jquery.js"></script>
+    <script defer src="content/scripts/lity.min.js"></script>
     <script defer src="content/scripts/script.js"></script>
 </body>
 </html>

@@ -24,11 +24,12 @@
                     <a href="contact.php">Contact</a>
                 </li>
             </ul>
-            <div class="input-group input-group-button d-none d-md-flex">
-                <input type="text" class="form-control" placeholder="Your e-mail" aria-label="Your e-mail">
-                <div class="input-group-append">
-                    <button class="btn btn-primary" type="button">Subscribe</button>
+            <div class="input-group input-group-button d-none d-md-flex subscribe-block">
+                <input type="text" class="form-control subscribe-email" placeholder="Your e-mail" aria-label="Your e-mail">
+                <div class="input-group-append subscribe-btn-block">
+                    <button class="btn btn-primary subscribe-btn" type="button">Subscribe</button>
                 </div>
+                <p class="d-none m-0 dark-theme-color-grey">Thank you! Your email has been sent successfully.</p>
             </div>
         </div>
         <div class="footer-flex footer-block-2">

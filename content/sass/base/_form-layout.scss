@@ -15,6 +15,9 @@
     @include media-breakpoint-down(xs) {
         height: 46px;
     }
+    &.error{
+        border-color: $red !important;
+    }
 }
 textarea {
     &.form-control {
@@ -34,6 +37,7 @@ textarea {
         border: none;
         color: $grey-100;
         margin: 0;
+
     } 
     .btn {
         @include media-breakpoint-down(xs) {
@@ -63,5 +67,27 @@ textarea {
     .form-control {
         padding-right: 60px;
         margin: 0;
+    }
+}
+.ty-div{
+    padding-top: 100px;
+    
+    img{
+        display: block;
+        margin: 30px auto;
+        width: 50px;
+    }
+    h2{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+.subscribe-block, .notify-block{
+
+    &.error{
+        border-color: $red !important;
     }
 }

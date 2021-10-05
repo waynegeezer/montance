@@ -26,7 +26,7 @@
                     <div class="col-lg-12" data-aos="fade-up" data-aos-delay="200">
                         <h2 class="dark-theme-color-white">Timeline</h2>
                         <p class="dark-theme-color-grey">Fixed price program to deliver a comprehensive project plan with key deliverables and timeline for developing a SOC. Client responsible for implementation without additional consulting support.</p>
-                        <a class="btn btn-primary" href=""><img class="icon" src="content/images/icons/gantt-chart.svg" alt=""> Buy the Gantt Chart</a>
+                        <a class="btn btn-primary" href="https://www.paypal.com/paypalme/CCrowMontance"><img class="icon" src="content/images/icons/gantt-chart.svg" alt=""> Buy the Gantt Chart</a>
                     </div>
                 </div>
             </div>
@@ -245,7 +245,21 @@
                 </div>
             </div>
         </section>
-
+        <section class="section-purchase">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10" data-aos="fade-up" data-aos-delay="200">
+                        <h2 class="dark-theme-color-white">Purchase Details</h2>
+                        <p class="dark-theme-color-grey"><a class="btn-text" target="_blank" href="content/pdf/license.pdf" target="_blank" data-lity>License Terms. Please Download and review</a></p>
+                        <p class="dark-theme-color-grey">License is either single entity or multiple entities. For single entity, you may use the chart for one organization's SOC build. For MSSPs or consulting firms, a minimum payment must be made per organization for each use.</p>
+                        <p class="dark-theme-color-grey">Pricing is sliding scale. Minimum of $35, maximum of $5,000. It is difficult to specify the appropriate price because organizations vary substantially in how they will use this. I prefer to have the information available to organizations who need it. You can pay the minimum ($35) and if it provided substantial value, pay more later..</p>
+                        <p class="dark-theme-color-grey">Note, purchase of the chart does not entitle the purchaser to consulting regarding use of the chart.</p>
+                        <p class="dark-theme-color-grey">Note, no physical chart will be sent. An e-mail with the Gantt chart in Microsoft Project (mpp) file format will be sent. I send an email manually once I see the paypal notification, usually within 24 hours.</p>
+                        <a class="btn btn-primary" href="https://www.paypal.com/paypalme/CCrowMontance"><img class="icon" src="content/images/icons/gantt-chart.svg" alt=""> Buy the Gantt Chart</a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     </main>
     <?php

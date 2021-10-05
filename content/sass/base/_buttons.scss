@@ -7,8 +7,9 @@
     background: linear-gradient(90deg, #FD0079 0%, #FFD200 100%);
     border: none;
     transition: all .5s;
+    cursor: pointer;
     &.btn-primary {
-        color: $white;
+        color: $white !important;
         width: 160px;
         background-size: 100%;
         @include hover {

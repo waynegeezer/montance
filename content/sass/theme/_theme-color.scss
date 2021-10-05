@@ -7,7 +7,7 @@ body {
             color: $white-600 !important;
         }
         p, li, div {
-            &.dark-theme-color-grey {
+            &.dark-theme-color-grey, b {
                 color: $grey-1000 !important;
             }
         }

@@ -386,7 +386,7 @@
             text-align: center;
             margin: 0 auto;
             display: block;
-            width: 246px;
+            width: 260px;
         }
     }
     .section-timeline{
@@ -532,6 +532,136 @@
                     font-size: 14px;
                     line-height: 150%;
                 }
+            }
+        }
+    }
+    .section-purchase{
+
+        .row{
+            text-align: center;
+        }
+
+        .btn{
+            width: 260px;
+            margin: 30px auto 0;
+            display: block;
+        }
+    }
+}
+/* Course Description Page */
+.course-description-page{
+    
+    /*.section-banner {
+        background: url("../images/patterns/course-pattern.svg") no-repeat 0 74%;
+        background-size: auto;
+        background-size: cover;
+    }*/
+    .video-grid{
+        box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.08);
+    }
+    /* accordian reset */
+    .accordion-reset {
+
+        .card {
+            border: none;
+            border-radius: 0;
+            background: transparent;
+        }
+        .card-header {
+            background-color: transparent;
+            border-bottom: none;
+
+            button {
+                    text-decoration: none !important;
+                    width: 100%;
+                    text-align: left;
+                    background: transparent;
+                    padding: 22px 0;
+                    border: none;
+                    border-bottom: 1px solid $white-200;
+                }
+        }
+    }
+    .section-soc-list{
+
+        h2{
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .accordion-soc-list{
+
+            .card-body{
+                padding: 20px 0 20px 50px;
+                width: 100%;
+
+                p{
+                    margin-bottom: 25px;
+
+                    b{
+                        color: $blue-100;
+                        font-size: 18px;
+                    }
+
+                    &:last-child,{
+                        margin-bottom: 0;
+                    }
+                }
+                ul{
+                    padding-left: 20px;
+
+                    li{
+                        margin-bottom: 5px;
+
+                        &:last-child,{
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+            }
+            .card-header{
+
+                h5 {
+                    display: inline-block;
+                    width: 100%;
+                }
+                button {
+                    font-family: $red-hat-bold;
+                    font-size: 24px;
+                    line-height: 1;
+                    padding: 22px 0 22px 50px;
+                    position: relative;
+                    white-space: normal;
+                    position: relative;
+                    outline: none;
+
+                    &:after {
+                        content: "";
+                        background: url("../images/icons/icon-minus.svg");
+                        position: absolute;
+                        top: 33px;
+                        left: 10px;
+                        width: 27px;
+                        height: 3px;
+                        background-size: cover;
+                    }
+                    &.collapsed{
+                        /*font-family: $red-hat-medium;*/
+
+                        &:after {
+                            content: "";
+                            background: url("../images/icons/icon-plus.svg");
+                            position: absolute;
+                            top: 21px;
+                            left: 10px;
+                            width: 27px;
+                            height: 27px;
+                            background-size: cover;
+                            transition: all .3s;
+                        }
+                    }
+                }
+
             }
         }
     }

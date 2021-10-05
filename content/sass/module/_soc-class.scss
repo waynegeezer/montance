@@ -6,7 +6,7 @@
     }
 }
 .carousel-soc-class {
-    padding: 40px 0 40px 60px;
+    padding: 40px 60px 40px 60px;
     position: relative;
     margin-top: 50px;
     @include media-breakpoint-down(lg) {
@@ -34,7 +34,7 @@
     &:after {
         content: "";
         position: absolute;
-        width: 200%;
+        width: 100%;
         height: 100%;
         top: 0;
         left: 0;

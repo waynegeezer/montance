@@ -6,11 +6,15 @@
                 <p class="dark-theme-color-grey" data-aos="fade-up" data-aos-delay="200">Get in touch with me for any queries or requests regarding the course</p>
                 <div class="form-grid"  data-aos="fade-up" data-aos-delay="300">
                     <div class="form-group">
-                        <input type="text" class="form-control" id="contact-form-name" placeholder="Your name">
-                        <input type="email" class="form-control" id="contact-form-email" placeholder="Your e-mail">
-                        <textarea class="form-control" id="contact-form-message" placeholder="Your message"></textarea>
-                        <button class="btn btn-primary">Send</button>
+                        <input type="text" class="form-control name" id="contact-form-name" placeholder="Your name">
+                        <input type="email" class="form-control email" id="contact-form-email" placeholder="Your e-mail">
+                        <textarea class="form-control message" id="contact-form-message" placeholder="Your message"></textarea>
+                        <a class="btn btn-primary contact-submit">Send</a>
                     </div>
+                    <div class="ty-div d-none">
+                        <img src="content/images/icons/form-success.svg" alt="">
+                        <h2>Thank you!</h2> 
+                        <p>I have received your message and I shall get back to you shortly.</p></div>
                 </div>
                 <ul class="contact-list no-list"  data-aos="fade-up" data-aos-delay="200">
                     <li class="align-items-start">
@@ -27,10 +31,10 @@
                     </li>
                     <li>
                         <p class="font-avenir-medium color-grey-100">Follow Montance on</p>
-                        <a href="" target="_blank">
+                        <a href="https://www.youtube.com/channel/UCZBVlN-16t4PfQGlYJ5SrdQ" target="_blank">
                             <img src="content/images/icons/youtube.svg" alt="">
                         </a>
-                        <a href="" target="_blank">
+                        <a href="https://www.linkedin.com/in/christopher-crowley-1200339" target="_blank">
                             <img src="content/images/icons/linkedin.svg" alt="">
                         </a>
                     </li>

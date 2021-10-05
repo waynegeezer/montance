@@ -35,12 +35,14 @@
                 <div class="section-banner-block" data-aos="fade-up" data-aos-delay="200">
                     <h1 class="dark-theme-color-white">Optimum Security Protection for digital Assets</h1>
                     <p class="dark-theme-color-grey">Montance® LLC is a trusted independent Information Security partner providing cybersecurity assessment, and framework development services enabling clients to create a new SOC, or improve existing security operations. We are committed to enhancing your SOC capabilities to execute its mission: to provide optimum security protection for digital assets.</p>
-                    <div class="input-group input-group-button">
+                    <p class="dark-theme-color-grey">Montance® LLC has provided services to organizations large and small in the financial, industrial, energy, medical, and defense industries. It is a one-person consulting firm providing a vehicle for direct and efficient engagement.</p>
+                    <p class="dark-theme-color-grey">Contracting can be direct or via an existing contracting vehicle.</p>
+                    <!-- <div class="input-group input-group-button">
                         <input type="text" class="form-control" placeholder="Enter your email" aria-label="Enter your email">
                         <div class="input-group-append">
                             <button class="btn btn-primary" type="button">Get Started</button>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
@@ -118,7 +120,7 @@
                                     <p class="author">US Department of Defense</p>
                                 </div>
                             </div>
-                            <p>Thanks for the excellent course in San Francisco...Btw, I appreciated how you quickly comprehended and translated specific feedback to general principles, when fielding questions in the class. That is a good skill.</p>
+                            <p>Thanks for the excellent course in San Francisco...Btw, I appreciated how you quickly comprehended and translated specific feedback to general principles, when fielding questions in the class. That is a good skill. </p>
                         </div>
                     </div>
                     <div class="testimonial-item">
@@ -130,7 +132,7 @@
                                     <p class="author">Author- Red Team Development and Operations</p>
                                 </div>
                             </div>
-                            <p>It's is rare that you come across someone with such exceptional talent and professionalism as Chris. I've had the pleasure of working with Chris for many years as a peer. His ability to breakdown complex challenges in an approachable format makes him an expert in delivering solutions. I highly recommend Chris as an asset to help solve the problems we face in protecting our critical systems against cyber attacks.</p>
+                            <p>It's is rare that you come across someone with such exceptional talent and professionalism as Chris. I've had the pleasure of working with Chris for many years as a peer. His ability to breakdown complex challenges in an approachable format makes him an expert in delivering solutions. I highly recommend Chris as an asset to help solve the problems we face in protecting our critical systems against cyber attacks. </p>
                         </div>
                     </div>
                     <div class="testimonial-item">
@@ -142,7 +144,7 @@
                                     <p class="author">Verizon Australia</p>
                                 </div>
                             </div>
-                            <p>Myself and my staff have had the pleasure of attending training and conferences hosted by Chris. He has a font of knowledge and experience pertaining to multiple domains of information...</p>
+                            <p>Myself and my staff have had the pleasure of attending training and conferences hosted by Chris. He has a font of knowledge and experience pertaining to multiple domains of information security/security operations. I will continue to recommend my staff and my peers in industry to seek out Chris' training and advice wherever they can get it, via SANS, AND, or directly from Chris. </p>
                         </div>
                     </div>
                 </div>

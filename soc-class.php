@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="content/css/aos.css">
     <link rel="stylesheet" href="content/css/bootstrap.min.css">
     <link rel="stylesheet" href="content/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="content/css/lity.min.css">
     <link rel="stylesheet" href="content/css/styles.css">
 </head>
 <body class="soc-class-page">
@@ -26,7 +27,7 @@
                     <div class="col-lg-8 text-center" data-aos="fade-up" data-aos-delay="200">
                         <h2 class="dark-theme-color-white text-center-mobile"><span class="d-block">SOC Class</span> Build and operate SOCs</h2>
                         <p class="dark-theme-color-grey text-center-mobile">SOC-class is the Montance® LLC live instructional offering for those seeking to build or mature a Cyber Security Operations Center. Take this class to shorten the learning curve to excellence in your SOC.</p>
-                        <a class="btn btn-primary" href=""><img class="icon" src="content/images/icons/drive.svg" alt=""> Executive Summary</a>
+                        <a class="btn btn-primary" target="_blank" href="content/pdf/soc-class-justification.pdf"> Executive Summary</a>
                     </div>
                     <div class="col-12">
                         <?php
@@ -40,7 +41,7 @@
                 <div class="row course-video">
                     <div class="col-lg-12">
                         <div class="soc-video-block" data-aos="fade-up" data-aos-delay="250">
-                            <a class="soc-video-link" href="">
+                            <a class="soc-video-link" <a href="https://www.youtube.com/watch?v=ec6c9XcdUrM" data-lity>
                                 <img class="icon" src="content/images/icons/play.svg" alt="">
                                 <p>Watch course overview</p>
                             </a>
@@ -55,7 +56,7 @@
                     <div class="col-lg-5" data-aos="fade-up" data-aos-delay="200">
                         <h2 class="dark-theme-color-white text-center-mobile"><span class="d-block">SOC</span> Reference Model</h2>
                         <p class="dark-theme-color-grey text-center-mobile">The class is not technical in nature, however, it is deeply grounded in technical details. Those details will be elaborated to explain the rationale between choices. This class is more about equiping you on how to make decisions for your SOC, and less about telling you the specific way to do something. </p>
-                        <a class="btn btn-primary" href=""><img class="icon" src="content/images/icons/drive.svg" alt=""> Download Presentation</a>
+                        <!-- <a class="btn btn-primary" target="_blank" href="content/pdf/soc-class-justification.pdf"> Download Presentation</a> -->
                     </div>
                     <div class="col-lg-7" data-aos="fade-up" data-aos-delay="300">
                         <div class="soc-reference-model-block">
@@ -75,7 +76,7 @@
                     <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
                         <h2 class="dark-theme-color-white text-center-mobile">Additional Resources</h2>
                         <p class="dark-theme-color-grey text-center-mobile">An online version of the class is not yet available, but is under development with Applied Network Defense. The delay in delivery of the course is resulting from Christopher Crowley's inclination toward classroom delivery, and AND's experience with online delivery modalities. More work is being done to produce the best quality course. If you want to discuss an interim remote delivery of the live class, please contact Christopher Crowley.</p>
-                        <a class="btn btn-primary" href="">View All Resources</a>
+                        <a class="btn btn-primary" href="additional-information.php">View All Resources</a>
                     </div>
                     <div class="col-lg-6">
                         <ul class="resource-list" data-aos="fade-up" data-aos-delay="300">
@@ -105,6 +106,7 @@
     <script defer src="content/scripts/bootstrap.min.js"></script>
     <script defer src="content/scripts/owl.carousel.min.js"></script>
     <script defer src="content/scripts/aos.js"></script>
+    <script defer src="content/scripts/lity.min.js"></script>
     <script defer src="content/scripts/script.js"></script>
 </body>
 </html>

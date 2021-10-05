@@ -24,15 +24,15 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <h1 class="dark-theme-color-white" data-aos="fade-up" data-aos-delay="200">Learn.Build.<span class="d-inline-block">Customize</span></h1>
-                        <p class="dark-theme-color-grey" data-aos="fade-up" data-aos-delay="200">Montance® LLC can recommend and execute an approvpriate tabletop, timeline, fixed price program and even custom solutions for your organization</p>
+                        <p class="dark-theme-color-grey" data-aos="fade-up" data-aos-delay="200">Montance® LLC can recommend and execute an appropriate tabletop, timeline, fixed price program and even custom solutions for your organization</p>
                         <img class="illustration-img" src="content/images/illustrations/learn-built.png" alt="" data-aos="fade-up" data-aos-delay="300">
-                        <p class="illustration-space-text dark-theme-color-grey" data-aos="fade-up" data-aos-delay="200">Need a custom solution? Feel free to reach out</p>
+                        <!-- <p class="illustration-space-text dark-theme-color-grey" data-aos="fade-up" data-aos-delay="200">Need a custom solution? Feel free to reach out</p>
                         <div class="input-group input-group-button" data-aos="fade-up" data-aos-delay="200">
                             <input type="text" class="form-control" placeholder="Enter your email" aria-label="Enter your email">
                             <div class="input-group-append">
                                 <button class="btn btn-primary" type="button">Get Started</button>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -62,7 +62,7 @@
                         <h2 class="dark-theme-color-white">Implementation Project Plan</h2>
                         <p class="dark-theme-color-grey">The Montance® timeline offering to guide SOC: design, build, and implementation.</p>
                         <p class="dark-theme-color-grey">Fixed price program to deliver a comprehensive project plan with key deliverables and timeline for developing a SOC. Client responsible for implementation without additional consulting support.</p>
-                        <a class="btn btn-primary" href=""><img class="icon" src="content/images/icons/gantt-chart.svg" alt=""> the Gantt Chart</a>
+                        <a class="btn btn-primary" href="timeline.php"><img class="icon" src="content/images/icons/gantt-chart.svg" alt=""> the Gantt Chart</a>
                     </div>
                 </div>
                 <div class="row row-two-column">

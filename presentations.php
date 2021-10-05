@@ -12,6 +12,7 @@
     <link rel="icon" href="content/images/favicon.png">
     <link rel="stylesheet" href="content/css/aos.css">
     <link rel="stylesheet" href="content/css/bootstrap.min.css">
+    <link rel="stylesheet" href="content/css/lity.min.css">
     <link rel="stylesheet" href="content/css/styles.css">
 </head>
 <body class="presentations-page">
@@ -32,7 +33,7 @@
                     </div>
                     <div class="col-lg-7 col-xl-8" data-aos="fade-up" data-aos-delay="300">
                         <div class="video-grid">
-                            <a href="">
+                            <a href="https://www.youtube.com/watch?v=ec6c9XcdUrM" data-lity>
                                 <img src="content/images/presentation-video-bg.png" alt="">
                             </a>
                         </div>
@@ -220,6 +221,7 @@
     <script defer src="content/scripts/bootstrap.min.js"></script>
     <script defer src="content/scripts/aos.js"></script>
     <script defer src="content/scripts/tilt.jquery.js"></script>
+    <script defer src="content/scripts/lity.min.js"></script>
     <script defer src="content/scripts/script.js"></script>
 </body>
 </html>

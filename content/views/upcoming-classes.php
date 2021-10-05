@@ -4,11 +4,12 @@
             <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
                 <h2>Upcoming <span class="d-block">Classes</span></h2>
                 <p class="font-avenir-book">Sign up for class related updates</p>
-                <div class="input-group input-group-button">
-                    <input type="text" class="form-control" placeholder="Enter your email" aria-label="Enter your email">
-                    <div class="input-group-append">
-                        <button class="btn btn-secondary" type="button"><span>Notify Me</span></button>
+                <div class="input-group input-group-button notify-block">
+                    <input type="text" class="form-control notify-email" placeholder="Enter your email" aria-label="Enter your email">
+                    <div class="input-group-append notify-btn-block">
+                        <button class="btn btn-secondary notify-btn" type="button"><span>Notify Me</span></button>
                     </div>
+                    <p class="d-none m-0 dark-theme-color-grey">Thank you! You wil now receive updates on all the upcoming classes.</p>
                 </div>
             </div>
             <div class="col-lg-8" data-aos="fade-up" data-aos-delay="300">

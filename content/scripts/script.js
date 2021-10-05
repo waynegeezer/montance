@@ -234,4 +234,155 @@ $(document).ready(function() {
             });
         }
     //end
+
+
+    $("input, textarea").keypress(function(){
+        $(this).parent().find(".icon-img").removeClass("error");
+    });
+
+    $("textarea, input").val("");
+
+    var name_holder;
+    var email_holder;
+    var subscribe_email_holder;
+    var message_holder
+
+    $('.contact-submit').click(function(){
+
+        var isValidchk = false;
+        var inp_name = $(".name").val();
+        var inp_email = $(".email").val();
+        var inp_message = $(".message").val();
+        var email_filter = /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/;
+        var name_filter = /^[a-zA-Z]+[\-'\s]?[a-zA-Z ]+$/;
+        /*var phone_filter = /^(?:\+91(?:-)?|0\d{2,4}-|0|)\d{10,10}$/;*/
+        var phone_filter = /^[0-9-+()\s]*$/;
+
+
+        if (inp_name.length <= 0 || !inp_name.match(name_filter)) {
+            $(".name").addClass("error");
+            isValidchk = true;
+        } else {
+            $(".name").removeClass("error");
+        }
+
+        if (inp_email.length <= 0 || !inp_email.match(email_filter)){
+            $(".email").addClass("error");
+            isValidchk = true;
+        }else{
+            $(".email").removeClass("error");
+        }
+
+
+        if (isValidchk == false) {
+            console.log(inp_name, inp_email, inp_message)
+            name_holder = inp_name;
+            email_holder = inp_email;
+            message_holder = inp_message
+            $(".form-group").hide();
+            $(".ty-div").removeClass("d-none");
+
+                $.ajax({   
+                  type:"POST",   
+                  url: "contactFormSubmit.php",
+                  data: {
+                    name: name_holder,
+                    senderemail: email_holder,
+                    message: message_holder
+                  },
+                  success: function(data) {
+                    console.log(data);
+                  }
+                }); 
+            return false;
+
+        };
+    });
+
+    $('.subscribe-btn').click(function(){
+
+        var isValidchk = false;
+        var inp_email = $(".subscribe-email").val();
+        var email_filter = /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/;
+
+        if (inp_email.length <= 0 || !inp_email.match(email_filter)){
+            $(".subscribe-block").addClass("error");
+            isValidchk = true;
+        }else{
+            $(".subscribe-block").removeClass("error");
+        }
+
+        if (isValidchk == false) {
+            console.log(inp_email)
+            subscribe_email_holder = inp_email;
+            $(".subscribe-btn-block").hide();
+            $(".subscribe-email").hide();
+            $(".subscribe-block p").removeClass("d-none");
+            $(".subscribe-block").addClass("border-0");
+
+                $.ajax({   
+                  type:"POST",   
+                  url: "subscribeFormSubmit.php",
+                  data: {
+                    senderemail: subscribe_email_holder
+                  },
+                  success: function(data) {
+                    console.log(data);
+                  }
+                }); 
+            return false;
+
+        };
+    });
+
+    $('.notify-btn').click(function(){
+
+        var isValidchk = false;
+        var inp_email = $(".notify-email").val();
+        var email_filter = /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/;
+
+        if (inp_email.length <= 0 || !inp_email.match(email_filter)){
+            $(".notify-block").addClass("error");
+            isValidchk = true;
+        }else{
+            $(".notify-block").removeClass("error");
+        }
+
+        if (isValidchk == false) {
+            console.log(inp_email)
+            subscribe_email_holder = inp_email;
+            $(".notify-btn-block").hide();
+            $(".notify-email").hide();
+            $(".notify-block p").removeClass("d-none");
+            $(".notify-block").addClass("border-0");
+
+                $.ajax({   
+                  type:"POST",   
+                  url: "notifyFormSubmit.php",
+                  data: {
+                    senderemail: subscribe_email_holder
+                  },
+                  success: function(data) {
+                    console.log(data);
+                  }
+                }); 
+            return false;
+
+        };
+    });
+
 });
+
+(function ($){
+    $.fn.responsiveTabs = function() {
+        if(screen_width < 768){
+            this.append($('<span class="dropdown-arrow"></span>'));
+        }
+        this.addClass('responsive-tabs'),
+        this.on("click", "li > a.active, span.dropdown-arrow", function (){
+                this.toggleClass('open');
+            }.bind(this)), this.on("click", "li > a:not(.active)", function() {
+                this.removeClass("open")
+            }.bind(this)); 
+    }
+})(jQuery);
