@@ -77,7 +77,7 @@
                 </div>
                 <div class="row row-two-column">
                     <div class="col-lg-6 order-lg-1" data-aos="fade-up" data-aos-delay="300">
-                        <div class="js-tilt data-tilt"><img class="icon-img" src="content/images/icons/implementation.png" alt=""></div>
+                        <div class="js-tilt data-tilt"><img class="icon-img" src="content/images/icons/custom-solution.png" alt=""></div>
                     </div>
                     <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
                         <p class="sub-sm-header">July, 2017, New Orleans, LA, USA</p>

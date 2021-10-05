@@ -198,9 +198,17 @@ body {
     &.services-page .nav-link-services, 
     &.timeline-page .nav-link-timeline, 
     &.resources-page .nav-link-resources, 
-    &.contact-page .nav-link-contact {
+    &.contact-page .nav-link-contact,
+    &.course-description-page .nav-link-soc,
+    &.soc-additional-information .nav-link-soc {
         color: $orange !important;
         text-decoration: underline;
+        opacity: 1 !important;
+    }
+    &.soc-class-page .dropdown-item-soc,
+    &.course-description-page .dropdown-item-course-description,
+    &.soc-additional-information .dropdown-item-additional-information {
+        color: $orange !important;
         opacity: 1 !important;
     } 
 }

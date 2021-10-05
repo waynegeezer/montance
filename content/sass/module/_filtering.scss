@@ -293,7 +293,7 @@
             }
             &.icon-block-vsdx {
                 &:before {
-                    background: url("../images/icons/vsdx.svg") no-repeat 0;
+                    background: url("../images/icons/raw.svg") no-repeat 0;
                 }
             }
             &.icon-block-zip {
@@ -304,6 +304,11 @@
             &.icon-block-tif {
                 &:before {
                     background: url("../images/icons/tif.svg") no-repeat 0;
+                }
+            }
+            &.icon-block-png {
+                &:before {
+                    background: url("../images/icons/png.svg") no-repeat 0;
                 }
             }
         }

@@ -49,7 +49,7 @@
                                 <button class="filter-button" type="button" data-filter=".doc">DOC</button>
                             </li>
                             <li>
-                                <button class="filter-button" type="button" data-filter=".jpg">JPG</button>
+                                <button class="filter-button" type="button" data-filter=".jpg">JPG / PNG</button>
                             </li>
                             <li>
                                 <button class="filter-button" type="button" data-filter=".vsdx">VSDX</button>
@@ -250,7 +250,7 @@
                             </div>
                             <div class="icon-content-block mix xls">
                                 <a href="https://docs.google.com/spreadsheets/d/1fA6ZIxhXRBsJlKhE95PX29iszc5uUXzt/edit?usp=sharing&ouid=107820980468952209249&rtpof=true&sd=true" target="_blank" class="icon-content-box">
-                                    <div class="icon-block icon-block-vsdx"></div>
+                                    <div class="icon-block icon-block-xls"></div>
                                     <p class="icon-content">Security Certifications.xlsx</p>
                                 </a>
                             </div>
@@ -862,7 +862,7 @@
                             </div>
                             <div class="icon-content-block mix jpg damien-paul-docs hide">
                                 <a href="https://drive.google.com/file/d/0B9l-G6EuipZgampxMkFxd3U4bGM/view?usp=sharing&resourcekey=0-I5_s_V2weqyXPf6tmTYhBw" target="_blank" class="icon-content-box">
-                                    <div class="icon-block icon-block-jpg"></div>
+                                    <div class="icon-block icon-block-png"></div>
                                     <p class="icon-content">IT Data Management Maturity Scale.png</p>
                                 </a>
                             </div>

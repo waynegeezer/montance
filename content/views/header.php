@@ -17,9 +17,9 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link nav-link-soc dropdown-toggle" href="javascript:void(0);" type="button" id="navbar-dropdown-soc-classes" data-toggle="dropdown">SOC Class <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg></a>
                         <div class="dropdown-menu nav-animate navFadeInUp" aria-labelledby="navbar-dropdown-soc-classes">
-                            <a class="dropdown-item" href="soc-class.php">SOC Class Detail</a>
-                            <a class="dropdown-item" href="course-description.php">Course Description</a>
-                            <a class="dropdown-item" href="additional-information.php">Additional Information</a>
+                            <a class="dropdown-item dropdown-item-soc" href="soc-class.php">SOC Class Detail</a>
+                            <a class="dropdown-item dropdown-item-course-description" href="course-description.php">Course Description</a>
+                            <a class="dropdown-item dropdown-item-additional-information" href="additional-information.php">Additional Information</a>
                         </div>
                     </li>
                     <li class="nav-item">
